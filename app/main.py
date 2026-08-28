@@ -268,7 +268,7 @@ def bootstrap_legacy_media() -> int:
 MEDIA_BOOTSTRAPPED = bootstrap_legacy_media()
 refresh_media()
 
-app = FastAPI(title="Liftorg B2B Engineering Catalog", version="4.4.9")
+app = FastAPI(title="Liftorg B2B Engineering Catalog", version="4.4.10")
 app.add_middleware(GZipMiddleware, minimum_size=800)
 app.mount("/static", StaticFiles(directory=ROOT / "app" / "static"), name="static")
 app.mount("/react-assets", StaticFiles(directory=ROOT / "app" / "react_dist"), name="react-assets")
@@ -279,6 +279,7 @@ app.mount("/react-assets", StaticFiles(directory=ROOT / "app" / "react_dist"), n
 WINCH_TYPES = [
     "Редукторная",
     "Безредукторная таблетка",
+    "Безредукторная объёмная таблетка",
     "Безредукторная бочонок",
 ]
 
@@ -493,8 +494,9 @@ def placement_type_of(p: dict[str, Any]) -> str | None:
     Приоритет:
     1. Явно сохранённое/импортированное значение MR/MRL всегда имеет приоритет.
     2. Все безредукторные «бочонки» -> без машинного помещения (MRL).
-    3. Плоские таблетки WE 06, WE 10, WE 20 и исполнения WJC-* -T -> MRL.
-    4. Остальные безредукторные таблетки считаются объёмными -> машинное помещение (MR).
+    3. Плоские таблетки WE 06, WE 10, WE 20 -> MRL.
+    4. Серия WJC-T по уточнению заказчика 28.08.2026 — объёмная таблетка, но установка MRL.
+    5. Остальные безредукторные таблетки считаются объёмными -> машинное помещение (MR).
 
     Для типов, которые инженер пока не классифицировал (например отдельные Torindrive
     с общим типом «Безредукторная»), значение не придумывается и остаётся UNKNOWN.
@@ -515,10 +517,14 @@ def placement_type_of(p: dict[str, Any]) -> str | None:
     if winch_type == "Безредукторная бочонок":
         return "Без машинного помещения"
 
+    if winch_type == "Безредукторная объёмная таблетка":
+        if model.startswith("WJC") and bool(re.search(r"-T(?:$|[^A-Z0-9])", model)):
+            return "Без машинного помещения"
+        return "В машинном помещении"
+
     if winch_type == "Безредукторная таблетка":
         is_flat_we = model.startswith(("WE06-", "WE10-", "WE20-"))
-        is_wjc_t = model.startswith("WJC") and bool(re.search(r"-T(?:$|[^A-Z0-9])", model))
-        if is_flat_we or is_wjc_t:
+        if is_flat_we:
             return "Без машинного помещения"
         return "В машинном помещении"
 
@@ -538,11 +544,50 @@ def placement_rule_source(p: dict[str, Any]) -> str | None:
     model = re.sub(r"\s+", "", str(p.get("model") or "").upper())
     if winch_type == "Безредукторная бочонок":
         return "Правило 26.08.2026: все бочонки = MRL"
+    if winch_type == "Безредукторная объёмная таблетка":
+        if model.startswith("WJC") and bool(re.search(r"-T(?:$|[^A-Z0-9])", model)):
+            return "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
+        return "Правило 26.08.2026: объёмная таблетка = MR"
     if winch_type == "Безредукторная таблетка":
-        if model.startswith(("WE06-", "WE10-", "WE20-")) or (model.startswith("WJC") and bool(re.search(r"-T(?:$|[^A-Z0-9])", model))):
+        if model.startswith(("WE06-", "WE10-", "WE20-")):
             return "Правило 26.08.2026: плоская таблетка = MRL"
         return "Правило 26.08.2026: объёмная таблетка = MR"
     return None
+
+
+def correct_wjc_t_classification_in_db() -> int:
+    """Коррекция заказчика 28.08.2026: WJC-T — объёмная таблетка + MRL.
+
+    Исправляет старую автоматическую классификацию, где WJC-T ошибочно
+    называлась плоской таблеткой. Технические характеристики не меняются.
+    """
+    changed = 0
+    with db_conn() as con:
+        rows = con.execute("SELECT id,payload FROM products").fetchall()
+        for row in rows:
+            data = json.loads(row["payload"])
+            model = re.sub(r"\s+", "", str(data.get("model") or "").upper())
+            is_wjc_t = model.startswith("WJC") and bool(re.search(r"-T(?:$|[^A-Z0-9])", model))
+            if not is_wjc_t:
+                continue
+            expected_type = "Безредукторная объёмная таблетка"
+            expected_place = "Без машинного помещения"
+            expected_source = "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
+            if (data.get("winch_type") == expected_type and
+                data.get("placement_type") == expected_place and
+                data.get("placement_type_source") == expected_source):
+                continue
+            data["winch_type"] = expected_type
+            data["placement_type"] = expected_place
+            data["placement_type_source"] = expected_source
+            con.execute(
+                "UPDATE products SET payload=?, updated_at=CURRENT_TIMESTAMP WHERE id=?",
+                (json.dumps(data, ensure_ascii=False), row["id"]),
+            )
+            changed += 1
+    if changed:
+        refresh_products()
+    return changed
 
 
 def apply_placement_rules_to_db() -> int:
@@ -574,6 +619,8 @@ def apply_placement_rules_to_db() -> int:
     return changed
 
 
+# Коррекция WJC-T выполняется раньше общего правила размещения.
+WJC_T_CORRECTIONS_APPLIED = correct_wjc_t_classification_in_db()
 # Миграция безопасно выполняется при старте и сохраняет классификацию в восстановленной БД.
 PLACEMENT_RULES_APPLIED = apply_placement_rules_to_db()
 
@@ -773,7 +820,7 @@ def search(
     """
     if speed_count is not None and speed_count not in (1, 2):
         return {"count":0,"total":0,"exact_total":0,"clarification_total":0,"items":[]}
-    if winch_type in ("Безредукторная таблетка","Безредукторная бочонок") and speed_count == 2:
+    if winch_type in ("Безредукторная таблетка","Безредукторная объёмная таблетка","Безредукторная бочонок") and speed_count == 2:
         return {"count":0,"total":0,"exact_total":0,"clarification_total":0,"items":[]}
 
     def missing(v): return v is None or v == "" or v == []
@@ -795,7 +842,7 @@ def search(
             ev("Грузоподъёмность", capacity_kg, p.get("capacity_kg"), lambda a:eq_num(a,capacity_kg), lambda a:f"{a} кг"),
             ev("Скорость", f"{speed_min}–{speed_max}" if speed_min is not None or speed_max is not None else None, p.get("speed_m_s"), lambda a:in_inclusive_range(a,speed_min,speed_max), lambda a:f"{a} м/с"),
             ev("Кратность подвески", suspension, p.get("suspensions"), lambda a:suspension in (a or []), lambda a:", ".join(map(str,a))),
-            ev("Количество скоростей", speed_count, 1 if p.get("winch_type") in ("Безредукторная таблетка","Безредукторная бочонок","Безредукторная") else p.get("speed_count"), lambda a:eq_num(a,speed_count)),
+            ev("Количество скоростей", speed_count, 1 if p.get("winch_type") in ("Безредукторная таблетка","Безредукторная объёмная таблетка","Безредукторная бочонок","Безредукторная") else p.get("speed_count"), lambda a:eq_num(a,speed_count)),
             ev("Наличие ЧП", vfd, normalize_yes_no(p.get("vfd")), lambda a:a==vfd),
             ev("Энкодер", encoder_type, encoder_type_of(p), lambda a:a==encoder_type),
             ev("Мощность", f"{power_min}–{power_max}" if power_min is not None or power_max is not None else None, p.get("power_kw"), lambda a:in_inclusive_range(a,power_min,power_max), lambda a:f"{a} кВт"),
@@ -842,7 +889,7 @@ def search(
             "brake_voltage_normalized":normalize_brake_voltage(p),
             "placement_type_normalized":placement_type_of(p),
             "placement_type_source":placement_rule_source(p),
-            "speed_count_normalized":1 if p.get("winch_type") in ("Безредукторная таблетка","Безредукторная бочонок","Безредукторная") else p.get("speed_count"),
+            "speed_count_normalized":1 if p.get("winch_type") in ("Безредукторная таблетка","Безредукторная объёмная таблетка","Безредукторная бочонок","Безредукторная") else p.get("speed_count"),
             "match_status":status,
             "match_summary":{"passed":len(passed),"unknown":len(unknown),"selected":len(checks)},
             "match_checks":checks,
@@ -1773,10 +1820,10 @@ def health():
     try:
         with db_conn() as con:
             count=con.execute("SELECT COUNT(*) FROM products WHERE active=1").fetchone()[0]
-        return {"ok":True,"version":"4.4.9.2","products":count,"database":"ok"}
+        return {"ok":True,"version":"4.4.10","products":count,"database":"ok"}
     except Exception as e:
         raise HTTPException(status_code=503, detail=str(e))
 
 @app.get("/api/version")
 def version_info():
-    return {"version":"4.4.9.2","product":"Liftorg B2B Engineering Platform","spec":"MASTER_SPEC.md","mode":"react-model-groups+execution-selector-runtime-fix+buyer-visibility+persistent-media+media-library+inheritance+admin-upload+placement-rules+tdna-clean-survey+selection-summary+tdna-si+ru-sheave-terminology+zoom-sketches+optional-survey+direct-order+autosave+explainable-search"}
+    return {"version":"4.4.10","product":"Liftorg B2B Engineering Platform","spec":"MASTER_SPEC.md","mode":"react-model-groups+wjc-t-volume-mrl+execution-selector-runtime-fix+buyer-visibility+persistent-media+media-library+inheritance+admin-upload+placement-rules+tdna-clean-survey+selection-summary+tdna-si+ru-sheave-terminology+zoom-sketches+optional-survey+direct-order+autosave+explainable-search"}

@@ -42906,7 +42906,7 @@
     "model": "WJC-630-100-T",
     "identification_number": "WJC-630-100-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.0,
     "capacity_kg": 630.0,
     "max_lift_height_m": null,
@@ -42997,7 +42997,7 @@
     },
     "id": 430,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -43006,7 +43006,7 @@
     "model": "WJC-630-150-T",
     "identification_number": "WJC-630-150-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.5,
     "capacity_kg": 630.0,
     "max_lift_height_m": null,
@@ -43097,7 +43097,7 @@
     },
     "id": 431,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -43106,7 +43106,7 @@
     "model": "WJC-630-160-T",
     "identification_number": "WJC-630-160-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.6,
     "capacity_kg": 630.0,
     "max_lift_height_m": null,
@@ -43197,7 +43197,7 @@
     },
     "id": 432,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -43206,7 +43206,7 @@
     "model": "WJC-630-175-T",
     "identification_number": "WJC-630-175-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.75,
     "capacity_kg": 630.0,
     "max_lift_height_m": null,
@@ -43297,7 +43297,7 @@
     },
     "id": 433,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -43306,7 +43306,7 @@
     "model": "WJC-800-100-T",
     "identification_number": "WJC-800-100-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.0,
     "capacity_kg": 800.0,
     "max_lift_height_m": null,
@@ -43397,7 +43397,7 @@
     },
     "id": 434,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -43406,7 +43406,7 @@
     "model": "WJC-800-150-T",
     "identification_number": "WJC-800-150-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.5,
     "capacity_kg": 800.0,
     "max_lift_height_m": null,
@@ -43497,7 +43497,7 @@
     },
     "id": 435,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -43506,7 +43506,7 @@
     "model": "WJC-800-160-T",
     "identification_number": "WJC-800-160-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.6,
     "capacity_kg": 800.0,
     "max_lift_height_m": null,
@@ -43597,7 +43597,7 @@
     },
     "id": 436,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -43606,7 +43606,7 @@
     "model": "WJC-800-175-T",
     "identification_number": "WJC-800-175-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.75,
     "capacity_kg": 800.0,
     "max_lift_height_m": null,
@@ -43697,7 +43697,7 @@
     },
     "id": 437,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -43706,7 +43706,7 @@
     "model": "WJC-1000-100-T",
     "identification_number": "WJC-1000-100-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.0,
     "capacity_kg": 1000.0,
     "max_lift_height_m": null,
@@ -43797,7 +43797,7 @@
     },
     "id": 438,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -43806,7 +43806,7 @@
     "model": "WJC-1000-150-T",
     "identification_number": "WJC-1000-150-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.5,
     "capacity_kg": 1000.0,
     "max_lift_height_m": null,
@@ -43897,7 +43897,7 @@
     },
     "id": 439,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -43906,7 +43906,7 @@
     "model": "WJC-1000-160-T",
     "identification_number": "WJC-1000-160-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.6,
     "capacity_kg": 1000.0,
     "max_lift_height_m": null,
@@ -43997,7 +43997,7 @@
     },
     "id": 440,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -44006,7 +44006,7 @@
     "model": "WJC-1000-175-T",
     "identification_number": "WJC-1000-175-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.75,
     "capacity_kg": 1000.0,
     "max_lift_height_m": null,
@@ -44097,7 +44097,7 @@
     },
     "id": 441,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -44106,7 +44106,7 @@
     "model": "WJC-1050-100-T",
     "identification_number": "WJC-1050-100-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.0,
     "capacity_kg": 1050.0,
     "max_lift_height_m": null,
@@ -44197,7 +44197,7 @@
     },
     "id": 442,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -44206,7 +44206,7 @@
     "model": "WJC-1050-150-T",
     "identification_number": "WJC-1050-150-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.5,
     "capacity_kg": 1050.0,
     "max_lift_height_m": null,
@@ -44297,7 +44297,7 @@
     },
     "id": 443,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -44306,7 +44306,7 @@
     "model": "WJC-1050-160-T",
     "identification_number": "WJC-1050-160-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.6,
     "capacity_kg": 1050.0,
     "max_lift_height_m": null,
@@ -44397,7 +44397,7 @@
     },
     "id": 444,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -44406,7 +44406,7 @@
     "model": "WJC-1050-175-T",
     "identification_number": "WJC-1050-175-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.75,
     "capacity_kg": 1050.0,
     "max_lift_height_m": null,
@@ -44497,7 +44497,7 @@
     },
     "id": 445,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -44506,7 +44506,7 @@
     "model": "WJC-680-100-T",
     "identification_number": "WJC-680-100-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.0,
     "capacity_kg": 680.0,
     "max_lift_height_m": null,
@@ -44597,7 +44597,7 @@
     },
     "id": 446,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -44606,7 +44606,7 @@
     "model": "WJC-680-125-T",
     "identification_number": "WJC-680-125-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.25,
     "capacity_kg": 680.0,
     "max_lift_height_m": null,
@@ -44697,7 +44697,7 @@
     },
     "id": 447,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -44706,7 +44706,7 @@
     "model": "WJC-680-150-T",
     "identification_number": "WJC-680-150-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.5,
     "capacity_kg": 680.0,
     "max_lift_height_m": null,
@@ -44797,7 +44797,7 @@
     },
     "id": 448,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -44806,7 +44806,7 @@
     "model": "WJC-680-160-T",
     "identification_number": "WJC-680-160-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.6,
     "capacity_kg": 680.0,
     "max_lift_height_m": null,
@@ -44897,7 +44897,7 @@
     },
     "id": 449,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -44906,7 +44906,7 @@
     "model": "WJC-680-175-T",
     "identification_number": "WJC-680-175-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.75,
     "capacity_kg": 680.0,
     "max_lift_height_m": null,
@@ -44997,7 +44997,7 @@
     },
     "id": 450,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -45006,7 +45006,7 @@
     "model": "WJC-884-100-T",
     "identification_number": "WJC-884-100-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.0,
     "capacity_kg": 884.0,
     "max_lift_height_m": null,
@@ -45097,7 +45097,7 @@
     },
     "id": 451,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -45106,7 +45106,7 @@
     "model": "WJC-884-125-T",
     "identification_number": "WJC-884-125-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.25,
     "capacity_kg": 884.0,
     "max_lift_height_m": null,
@@ -45197,7 +45197,7 @@
     },
     "id": 452,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -45206,7 +45206,7 @@
     "model": "WJC-884-150-T",
     "identification_number": "WJC-884-150-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.5,
     "capacity_kg": 884.0,
     "max_lift_height_m": null,
@@ -45297,7 +45297,7 @@
     },
     "id": 453,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -45306,7 +45306,7 @@
     "model": "WJC-884-160-T",
     "identification_number": "WJC-884-160-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.6,
     "capacity_kg": 884.0,
     "max_lift_height_m": null,
@@ -45397,7 +45397,7 @@
     },
     "id": 454,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -45406,7 +45406,7 @@
     "model": "WJC-884-175-T",
     "identification_number": "WJC-884-175-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.75,
     "capacity_kg": 884.0,
     "max_lift_height_m": null,
@@ -45497,7 +45497,7 @@
     },
     "id": 455,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -45506,7 +45506,7 @@
     "model": "WJC-1088-100-T",
     "identification_number": "WJC-1088-100-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.0,
     "capacity_kg": 1088.0,
     "max_lift_height_m": null,
@@ -45597,7 +45597,7 @@
     },
     "id": 456,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -45606,7 +45606,7 @@
     "model": "WJC-1088-125-T",
     "identification_number": "WJC-1088-125-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.25,
     "capacity_kg": 1088.0,
     "max_lift_height_m": null,
@@ -45697,7 +45697,7 @@
     },
     "id": 457,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -45706,7 +45706,7 @@
     "model": "WJC-1088-150-T",
     "identification_number": "WJC-1088-150-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.5,
     "capacity_kg": 1088.0,
     "max_lift_height_m": null,
@@ -45797,7 +45797,7 @@
     },
     "id": 458,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -45806,7 +45806,7 @@
     "model": "WJC-1088-160-T",
     "identification_number": "WJC-1088-160-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.6,
     "capacity_kg": 1088.0,
     "max_lift_height_m": null,
@@ -45897,7 +45897,7 @@
     },
     "id": 459,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -45906,7 +45906,7 @@
     "model": "WJC-1088-175-T",
     "identification_number": "WJC-1088-175-T",
     "image_ref": null,
-    "winch_type": "Безредукторная таблетка",
+    "winch_type": "Безредукторная объёмная таблетка",
     "speed_m_s": 1.75,
     "capacity_kg": 1088.0,
     "max_lift_height_m": null,
@@ -45997,7 +45997,7 @@
     },
     "id": 460,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
