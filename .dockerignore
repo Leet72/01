@@ -1,0 +1,9 @@
+# Persistent/user media must never be baked into Docker images
+app/static/media-library/**
+app/static/winches/**
+
+# Runtime/cache
+__pycache__/
+*.pyc
+storage/*.db-journal
+.git/

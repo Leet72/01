@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0d2438">
+  <title>Liftorg — подбор оборудования</title>
+  <meta name="description" content="Подбор лифтовых лебёдок и расчёт стоимости на основе каталога Liftorg.">
+  <link rel="stylesheet" href="/static/style.css?v=202">
+</head>
+<body>
+<header class="site-header">
+  <div class="topline"><div class="shell topline__inner"><span>B2B-каталог для инженеров и специалистов</span><span class="topline__right">Технический подбор • Сравнение • Запрос цены</span></div></div>
+  <div class="shell header-main"><a class="logo" href="#"><span class="logo__mark">L</span><span class="logo__text">LIFTORG</span></a><nav class="main-nav"><a href="#selector">Подбор оборудования</a><a href="#results">Каталог</a><a href="#calc">Расчёт стоимости</a></nav><button class="header-action" data-goto="selector">Начать подбор</button></div>
+</header>
+<main>
+<section class="hero"><div class="shell hero__grid"><div class="hero__content"><div class="eyebrow">Подбор комплектующих</div><h1>Инженерный подбор лебёдок<br><span>по параметрам проекта</span></h1><p>Профессиональный каталог с техническими характеристиками из исходных файлов заказчика. Фильтруйте исполнения, сравнивайте 2–4 модели и формируйте запрос производителю.</p><div class="hero__actions"><button class="cta" data-goto="selector">Подобрать лебёдку</button><span class="hero__note"><b id="hero_count">—</b> исполнений в базе</span></div></div><div class="hero__visual" aria-hidden="true"><div class="visual-card visual-card--back"><span>Каталог</span><strong>Nidec · Sicor · Torindrive</strong></div><div class="visual-card visual-card--main"><div class="visual-card__icon">↕</div><div><small>Сценарий</small><strong>Параметры → модель → опросный лист → цена</strong></div></div><div class="visual-grid"><span>1000 кг</span><span>1,0–1,6 м/с</span><span>2:1</span><span>КВШ 400</span></div></div></div></section>
+<section class="workflow shell"><div class="workflow__item active"><span>01</span><div><b>Параметры</b><small>Укажите требования</small></div></div><div class="workflow__line"></div><div class="workflow__item"><span>02</span><div><b>Модель</b><small>Выберите вариант</small></div></div><div class="workflow__line"></div><div class="workflow__item"><span>03</span><div><b>Запрос цены</b><small>Заполните опросный лист</small></div></div><div class="workflow__line"></div><div class="workflow__item"><span>04</span><div><b>Стоимость</b><small>Расчёт условий</small></div></div></section>
+
+<section class="catalog-workspace shell" id="selector">
+  <aside class="selector-toolbar selector-panel">
+    <div class="selector-toolbar__head">
+      <div><span class="section-kicker">Шаг 1</span><h2>Параметры подбора</h2><p>Сначала основные параметры. Остальное — отдельными компактными блоками.</p></div>
+      <div class="selector-toolbar__head-actions"><button id="reset" class="text-button">Сбросить</button><button id="mobile_close" class="drawer-close" type="button" aria-label="Закрыть">×</button></div>
+    </div>
+
+    <section class="filter-block filter-block--primary">
+      <div class="filter-block__title"><span>01</span><div><b>Основное</b><small>Что ищем</small></div></div>
+      <div class="model-search"><label>Поиск по модели / ID<input id="q" type="search" placeholder="Например WJC-1150"></label></div><div class="filter-grid">
+        <label>Производитель<select id="manufacturer"><option value="">Любой</option></select></label>
+        <label>Тип лебёдки<select id="winch_type"><option value="">Любой тип</option></select></label>
+        <label>Грузоподъёмность<select id="capacity"><option value="">Любая</option></select><em>кг</em></label>
+        <label>Скорость<select id="speed"><option value="">Любой диапазон</option></select></label>
+      </div>
+    </section>
+
+    <section class="filter-block">
+      <div class="filter-block__title"><span>02</span><div><b>Привод</b><small>Основные технические параметры</small></div></div>
+      <div class="filter-grid">
+        <label>Кратность подвески<select id="suspension"><option value="">Любая</option></select></label>
+        <label>Мощность<select id="power"><option value="">Любой диапазон</option></select></label>
+        <label>Наличие ЧП<select id="vfd"><option value="">Неважно</option></select></label>
+        <label>Энкодер<select id="encoder_type"><option value="">Неважно</option></select></label>
+      </div>
+    </section>
+
+    <details class="filter-block filter-block--details">
+      <summary><div class="filter-block__title"><span>03</span><div><b>Эксплуатация</b><small>Нагрузка, высота, размещение</small></div></div><i>⌄</i></summary>
+      <div class="filter-grid filter-grid--inside">
+        <label>Количество скоростей<select id="speed_count" disabled><option value="">Сначала выберите тип лебёдки</option></select><small id="speed_count_hint" class="field-note">У безредукторных всегда 1 скорость</small></label>
+        <label>Консольная нагрузка<select id="cantilever"><option value="">Неважно</option></select></label>
+        <label>Высота подъёма<select id="lift_height"><option value="">Неважно</option></select></label>
+        <label>Тип размещения<select id="placement_type"><option value="">Любой</option></select><small id="placement_hint" class="field-note"></small></label>
+      </div>
+    </details>
+
+    <details class="filter-block filter-block--details">
+      <summary><div class="filter-block__title"><span>04</span><div><b>КВШ и канаты</b><small>Геометрия и канаты</small></div></div><i>⌄</i></summary>
+      <div class="filter-grid filter-grid--inside">
+        <label>Форма ручья<select id="groove_shape"><option value="">Любая</option></select></label>
+        <label>Угол подреза<select id="undercut_angle" disabled><option value="">Сначала ручей</option></select></label>
+        <label>Диаметр КВШ<select id="sheave"><option value="">Любой</option></select><em>мм</em></label>
+        <label>Количество канатов<select id="rope_count"><option value="">Любое</option></select></label>
+        <label>Диаметр канатов<select id="rope_diameter"><option value="">Любой</option></select><em>мм</em></label>
+      </div>
+    </details>
+
+    <details class="filter-block filter-block--details">
+      <summary><div class="filter-block__title"><span>05</span><div><b>Электрика и прочее</b><small>Тормоз, включения, масса</small></div></div><i>⌄</i></summary>
+      <div class="filter-grid filter-grid--inside">
+        <label>Включений в час<select id="starts_per_hour"><option value="">Любое</option></select></label>
+        <label>Питание тормоза<select id="brake_voltage"><option value="">Любое</option></select></label>
+        <label>Масса лебёдки<select id="weight"><option value="">Любая</option></select><em>кг</em></label>
+        <label>Поставка с рамой<select id="frame_supply"><option value="">Неважно</option></select></label>
+        <label>Дистанционное расцепление<select id="remote_release"><option value="">Неважно</option></select></label>
+      </div>
+    </details>
+
+    <div class="selector-actions selector-actions--panel">
+      <div><div id="active_filters" class="active-filters"></div><span id="filter_count_hint" class="filter-count-hint">Можно начать с 2–4 основных параметров</span></div>
+      <button id="search" class="cta selector-search"><span id="search_label">Показать подходящие</span><span>→</span></button>
+    </div>
+    <p class="filter-hint">Передаточное число показываем в карточке при наличии. Тип размещения MR/MRL классифицируется по подтверждённому инженерному правилу от 26.08.2026.</p>
+  </aside>
+
+  <section class="results-section" id="results">
+    <div class="results-head"><div><span class="section-kicker">Шаг 2</span><h2>Подходящие модели</h2></div><div class="results-head__actions"><button id="mobile_filters" class="filter-open" type="button">Фильтры <span id="mobile_filter_badge">0</span></button><div id="counter" class="result-counter">Загрузка…</div></div></div>
+    <div id="coverage" class="coverage-note"></div>
+    <div id="results_grid" class="cards" aria-live="polite"></div>
+    <div id="load_more_wrap" class="load-more-wrap hidden"><button id="load_more" class="load-more">Показать ещё</button></div>
+  </section>
+</section>
+
+<section id="calc" class="calculator-section">
+  <div class="shell">
+    <div class="calc-intro">
+      <div><span class="section-kicker section-kicker--light">Шаг 4</span><h2>Расчёт стоимости</h2><p>Полная логика из «Калькулятор-2.xlsx»: 4 сценария оплаты, внутренние затраты, кредитные расходы и обратный расчёт закупки под целевую цену.</p></div>
+      <label class="role-switch">Режим<select id="mode"><option value="customer">Покупатель</option><option value="employee">Сотрудник</option></select></label>
+    </div>
+    <div class="selected-product"><span class="selected-product__icon">✓</span><div><small>Выбранная модель</small><strong id="selected_model">Модель ещё не выбрана</strong></div><button class="link-light" data-goto="selector">Изменить</button></div>
+
+    <div id="employee_inputs" class="employee-panel hidden">
+      <div class="employee-panel__title"><div><b>Внутренние параметры расчёта</b><span>значения взяты из исходного Excel и доступны сотруднику</span></div><button id="calc_defaults" class="text-button calc-defaults" type="button">Вернуть значения Excel</button></div>
+      <div class="calc-subtitle">Закупка и логистика</div>
+      <div class="calc-grid calc-grid--dense">
+        <label>Закупка, CNY<input id="purchase" type="number" step="0.01" value="6200"></label>
+        <label>Комиссия банка, CNY<input id="bank" type="number" step="0.01" value="470"></label>
+        <label>Комиссия банка, EUR<input id="bank_eur" type="number" step="0.01" value="100"></label>
+        <label>Доставка РЖД, $<input id="delivery" type="number" step="0.01" value="9000"></label>
+        <label>Срок доставки, дней<input id="delivery_days" type="number" value="25"></label>
+        <label>Срок производства, дней<input id="production_days" type="number" value="21"></label>
+        <label>Общий срок поставки, дней<input id="supply_days" type="number" value="55"></label>
+        <label>Кол-во в контейнере<input id="qty" type="number" value="67"></label>
+      </div>
+      <div class="calc-subtitle">Курсы и финансирование</div>
+      <div class="calc-grid calc-grid--dense">
+        <label>Курс EUR<input id="eur" type="number" step="0.01" value="94.94"></label>
+        <label>Курс USD<input id="usd" type="number" step="0.01" value="81"></label>
+        <label>Курс CNY<input id="cny" type="number" step="0.0001" value="11.1209"></label>
+        <label>Кредитная ставка<input id="credit" type="number" step="0.001" value="0.27"></label>
+        <label>Агентские поставщику<input id="agent" type="number" step="0.001" value="0.02"></label>
+        <label>Надбавка к курсу CNY<input id="conversion_markup" type="number" step="0.001" value="0.04"></label>
+        <label>Добавка к клиентскому курсу<input id="client_conversion" type="number" step="0.001" value="0.02"></label>
+        <label>Валютный контроль<input id="currency_control" type="number" step="0.001" value="0.006"></label>
+      </div>
+      <div class="calc-subtitle">Расходы и наценка</div>
+      <div class="calc-grid calc-grid--dense">
+        <label>СВХ, ₽<input id="svh" type="number" step="1" value="20000"></label>
+        <label>Брокер, ₽<input id="broker" type="number" step="1" value="20000"></label>
+        <label>Адм. расходы / закупка<input id="overhead" type="number" step="0.000001" value="0.11957242476804819"></label>
+        <label>Наценка<input id="markup" type="number" step="0.001" value="0.15"></label>
+        <label>Скидка<input id="discount" type="number" step="0.001" value="0"></label>
+        <label>Доставка клиенту, CNY<input id="last_mile" type="number" step="0.01" value="0"></label>
+        <label>Проходная цена, CNY<input id="pass_price" type="number" step="0.01" value="10960"></label>
+        <label>Отсрочка постоплаты, дней<input id="defer" type="number" value="60"></label>
+      </div>
+      <details class="calc-advanced">
+        <summary>Платёжные доли из Excel</summary>
+        <div class="calc-grid calc-grid--dense">
+          <label>Доставка — 1 платёж<input id="delivery_first_share" type="number" step="0.01" value="0.5"></label>
+          <label>Доставка — 2 платёж<input id="delivery_second_share" type="number" step="0.01" value="0.5"></label>
+          <label>Поставщик — 1 платёж<input id="supplier_first_share" type="number" step="0.01" value="0.5"></label>
+          <label>Поставщик — 2 платёж<input id="supplier_second_share" type="number" step="0.01" value="0.5"></label>
+        </div>
+      </details>
+      <div id="calc_validation" class="calc-validation">Проверка формул…</div>
+    </div>
+
+    <div class="quote-row"><div><small>Варианты для покупателя</small><b>Итоговая цена без раскрытия внутренней экономики</b></div><button id="quote" class="cta cta--light">Пересчитать</button></div>
+    <div id="prices" class="price-grid"></div>
+
+    <div id="reverse_panel" class="reverse-panel hidden">
+      <div><span class="section-kicker section-kicker--light">Обратный расчёт</span><h3>Какой может быть закупка при заданной цене?</h3><p>Функция повторяет смысл блока «Обратный расчет» на листе «Лист1».</p></div>
+      <div class="reverse-controls">
+        <label>Сценарий<select id="reverse_scenario"><option value="postpay">Постоплата</option><option value="50_50">50/50</option><option value="on_delivery">100% по доставке</option><option value="prepay">Предоплата 100%</option></select></label>
+        <label>Целевая цена, CNY<input id="target_sale" type="number" step="0.01" value="10000"></label>
+        <button id="reverse_quote" class="cta cta--light" type="button">Рассчитать закупку</button>
+      </div>
+      <div id="reverse_result" class="reverse-result"></div>
+    </div>
+
+    <div id="internal_wrap" class="internal-wrap hidden"><h3>Расшифровка расчётов</h3><div id="internal_cards" class="internal-cards"></div><details><summary>Технический JSON расчёта</summary><pre id="internal" class="internal"></pre></details></div>
+  </div>
+</section>
+</main>
+<footer class="footer"><div class="shell footer__inner"><div><b>LIFTORG</b><span>Подбор лифтового оборудования</span></div><small>B2B тестовая версия v1.5. Полный каталог, инженерный подбор, опросный лист, запрос цены и коммерческий расчёт.</small></div></footer>
+<div id="inquiry_modal" class="inquiry-modal hidden"><div class="inquiry-modal__backdrop" onclick="closeInquiry()"></div><div class="inquiry-modal__panel"><div class="inquiry-head"><div><span class="section-kicker">Шаг 3</span><h2>Опросный лист на запрос цены</h2><p id="inquiry_product_title">Выбранная лебёдка</p></div><button class="product-modal__close" onclick="closeInquiry()">×</button></div><div class="inquiry-prefill"><b>Параметры из подбора и карточки уже перенесены.</b><span>Проверьте их и заполните недостающие данные проекта.</span></div><form id="inquiry_form"></form><div class="inquiry-submit"><div><small>После отправки запрос сохранится в системе и будет привязан к выбранной модели.</small><div id="inquiry_status"></div></div><button id="inquiry_send" class="cta" type="button" onclick="submitInquiry()">Отправить запрос цены →</button></div></div></div>
+<div id="product_modal" class="product-modal hidden"><div class="product-modal__backdrop" onclick="closeProduct()"></div><div class="product-modal__panel"><button class="product-modal__close" onclick="closeProduct()">×</button><div id="product_modal_body"></div></div></div>
+<div id="drawer_backdrop" class="drawer-backdrop"></div>
+<div class="mobile-bar"><button id="mobile_filters_bottom" class="filter-open filter-open--bottom" type="button">Фильтры <span id="mobile_filter_badge_bottom">0</span></button><button class="cta" data-goto="results">Результаты</button></div>
+
+<div id="compare_tray" class="compare-tray hidden" aria-live="polite">
+  <div class="compare-tray__inner">
+    <div><strong>Сравнение</strong><span id="compare_count">0 из 4</span></div>
+    <div id="compare_chips" class="compare-chips"></div>
+    <div class="compare-tray__actions"><button id="compare_clear" class="ghost-button" type="button">Очистить</button><button id="compare_open" class="cta" type="button" disabled>Сравнить</button></div>
+  </div>
+</div>
+<div id="compare_modal" class="modal hidden">
+  <div class="modal__backdrop" onclick="closeCompare()"></div>
+  <div class="modal__panel modal__panel--wide compare-modal">
+    <button class="modal__close" onclick="closeCompare()" aria-label="Закрыть">×</button>
+    <div class="detail-title"><span class="section-kicker">Инженерное сравнение</span><h2>Сравнение выбранных лебёдок</h2><p>До 4 моделей. Поля сравнения согласованы с заказчиком.</p></div>
+    <div id="compare_table_wrap"></div>
+  </div>
+</div>
+
+<script src="/static/app.js?v=210"></script>
+</body></html>

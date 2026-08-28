@@ -1,0 +1,15 @@
+services:
+  liftorg-mvp:
+    build: .
+    ports:
+      - "8098:8080"
+    environment:
+      ADMIN_USER: "admin"
+      ADMIN_PASSWORD: "Liftorg-ChangeMe-2026"
+      MANUFACTURER_PASSWORD: "Liftorg-Manufacturer-2026"
+      CATALOG_DB: "/app/storage/catalog.db"
+    volumes:
+      - ./storage:/app/storage
+      - ./media-library:/app/app/static/media-library
+      - ./winches:/app/app/static/winches
+    restart: unless-stopped
