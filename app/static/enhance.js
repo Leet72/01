@@ -25,8 +25,11 @@
       const win=window.open('','_blank');
       const fields=d.fields||[], items=d.items||[];
       const esc=s=>String(s??'—').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-      const rows=fields.map(f=>`<tr><th>${esc(f.label)}</th>${items.map(i=>`<td>${esc(i[f.key])} ${esc(f.unit||'')}</td>`).join('')}</tr>`).join('');
-      win.document.write(`<meta charset="utf-8"><title>Сравнение Liftorg</title><style>body{font:15px Arial;padding:28px;color:#08243a}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccd8e0;padding:12px;text-align:left}thead th{background:#f2f6f8}</style><h1>Сравнение лебёдок</h1><table><thead><tr><th>Параметр</th>${items.map(i=>`<th>${esc(i.manufacturer)}<br>${esc(i.model)}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table>`); win.document.close();
+      const val=(i,f)=>`${esc(i[f.key])}${f.unit?' '+esc(f.unit):''}`;
+      const enriched=fields.map(f=>{const vv=items.map(i=>String(i[f.key]??''));return {...f,diff:new Set(vv).size>1};});
+      const diff=enriched.filter(f=>f.diff);
+      const makeRows=only=>enriched.filter(f=>!only||f.diff).map(f=>`<tr class="${f.diff?'diff':''}"><th>${esc(f.label)}</th>${items.map(i=>`<td>${val(i,f)}</td>`).join('')}</tr>`).join('');
+      win.document.write(`<meta charset="utf-8"><title>Сравнение Liftorg</title><style>body{font:15px Arial;padding:28px;color:#08243a}button{padding:9px 12px;margin:0 6px 12px 0;border:1px solid #ccd8e0;border-radius:8px;background:#fff;font-weight:700}button.active{background:#08243a;color:#fff}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccd8e0;padding:12px;text-align:left}thead th{background:#f2f6f8}.diff td{background:#fff5d9;font-weight:700}p{color:#607687}</style><h1>Сравнение лебёдок</h1><p><b>Главные отличия:</b> ${diff.map(f=>esc(f.label)).join(', ')||'не найдены'}</p><button id="diff" class="active">Только отличия</button><button id="all">Все параметры</button><table><thead><tr><th>Параметр</th>${items.map(i=>`<th>${esc(i.manufacturer)}<br>${esc(i.model)}</th>`).join('')}</tr></thead><tbody id="rows">${makeRows(true)}</tbody></table><script>const rows=document.getElementById('rows'),d=document.getElementById('diff'),a=document.getElementById('all');d.onclick=()=>{rows.innerHTML=${JSON.stringify(makeRows(true))};d.className='active';a.className=''};a.onclick=()=>{rows.innerHTML=${JSON.stringify(makeRows(false))};a.className='active';d.className=''}</script>`); win.document.close();
     } catch(e) { alert('Не удалось открыть сравнение'); }
   });
 })();

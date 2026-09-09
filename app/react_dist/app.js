@@ -1,7 +1,12 @@
 const { Component } = React;
 const EMPTY = { q: '', manufacturer: '', winch_type: '', capacity_kg: '', speed_range: '', suspension: '', speed_count: '', vfd: '', encoder_type: '', power_range: '', cantilever_required_kg: '', lift_height_required_m: '', groove_shape: '', undercut_angle: '', sheave_diameter_mm: '', rope_count: '', rope_diameter_mm: '', starts_per_hour: '', brake_voltage: '', weight_kg: '', placement_type: '' };
 const fmt = (v, u = '') => (v === null || v === undefined || v === '') ? '—' : String(v).replace('.', ',') + (u ? ' ' + u : '');
+const fmtSpeed = v => (v === null || v === undefined || v === '' || isNaN(Number(v))) ? '—' : Number(v).toFixed(1).replace('.', ',') + ' м/с';
 const arr = v => Array.isArray(v) && v.length ? v.join(', ') : '—';
+const isGearless = p => String((p&&p.winch_type)||'').toLowerCase().includes('безредукт');
+const grooveLabel = v => { const z=String(v||'').trim().toUpperCase(); if(z==='U') return 'U — U-образная с подрезом'; if(z==='V') return 'V — V-образная с подрезом'; if(z==='VH') return 'VH — V-образная закалённая с подрезом'; return v||'По согласованию'; };
+const ropeSpec = p => { const c=arr(p&&p.rope_counts), d=arr(p&&p.rope_diameters_mm); return (c==='—'&&d==='—')?'—':c+' × '+d; };
+const normalizedCompareValue = (p,f) => { const v=p? p[f.key] : null; if(f.key==='speed_m_s') return fmtSpeed(v); if(f.key==='suspensions') return arr(v); if(Array.isArray(v)) return arr(v); return fmt(v,f.unit||''); };
 function params(f, extra = {}) { const p = new URLSearchParams(); Object.keys(f).forEach(k => { const v = f[k]; if (v === '' || v == null)
     return; if (k === 'speed_range') {
     const z = String(v).split('|');
@@ -18,21 +23,21 @@ else
 
 const EXECUTION_DIFF_FIELDS=[
   {key:'capacity_kg',label:'Грузоподъёмность',fmt:v=>fmt(v,'кг')},
-  {key:'speed_m_s',label:'Скорость',fmt:v=>fmt(v,'м/с')},
-  {key:'power_kw',label:'Мощность',fmt:v=>fmt(v,'кВт')},
+  {key:'speed_m_s',label:'Скорость, м/с',fmt:v=>fmtSpeed(v)},
+  {key:'power_kw',label:'Мощность, кВт',fmt:v=>fmt(v)},
   {key:'suspensions',label:'Подвес',fmt:v=>arr(v)},
-  {key:'sheave_diameter_mm',label:'КВШ',fmt:v=>fmt(v,'мм')},
+  {key:'sheave_diameter_mm',label:'Диаметр КВШ, мм',fmt:v=>fmt(v)},
   {key:'rope_counts',label:'Канаты',fmt:v=>arr(v)},
   {key:'rope_diameters_mm',label:'Ø каната',fmt:v=>arr(v)==='—'?'—':arr(v)+' мм'},
-  {key:'max_cantilever_load_kg',label:'Консольная нагрузка',fmt:v=>fmt(v,'кг')},
-  {key:'weight_kg',label:'Масса',fmt:v=>fmt(v,'кг')},
-  {key:'nominal_current_a',label:'Ток',fmt:v=>fmt(v,'A')},
-  {key:'nominal_rpm',label:'Обороты',fmt:v=>fmt(v,'об/мин')},
-  {key:'frequency_hz',label:'Частота',fmt:v=>fmt(v,'Гц')},
-  {key:'torque_nm',label:'Момент',fmt:v=>fmt(v,'Н·м')},
+  {key:'max_cantilever_load_kg',label:'Консольная нагрузка, кг',fmt:v=>fmt(v)},
+  {key:'weight_kg',label:'Масса, кг',fmt:v=>fmt(v)},
+  {key:'nominal_current_a',label:'Ток, А',fmt:v=>fmt(v)},
+  {key:'nominal_rpm',label:'Номинальная частота вращения, об/мин',fmt:v=>fmt(v)},
+  {key:'frequency_hz',label:'Номинальная частота, Гц',fmt:v=>fmt(v)},
+  {key:'torque_nm',label:'Крутящий момент, Нм',fmt:v=>fmt(v)},
   {key:'undercut_angle',label:'Угол подреза',fmt:v=>v||'—'},
-  {key:'groove_pitch_mm',label:'Шаг канавок',fmt:v=>fmt(v,'мм')},
-  {key:'brake_voltage',label:'Тормоз',fmt:v=>v||'—'},
+  {key:'groove_pitch_mm',label:'Расстояние между канатами, мм',fmt:v=>fmt(v)},
+  {key:'brake_voltage',label:'Напряжение тормоза, В',fmt:v=>v||'—'},
   {key:'winding_type',label:'Намотка',fmt:v=>v||'—'},
   {key:'placement_type',label:'Размещение',fmt:v=>v||'—'}
 ];
@@ -144,7 +149,7 @@ function ProductCard({ p, selected, onCompare, onDetails, onQuote, filters }) {
                 React.createElement("b",null,p.execution_count), " исполнений", React.createElement("span",null,"Выбрать →")),
             React.createElement("div", { className: "spec-grid" },
                 React.createElement("div", null,React.createElement("small", null, "Грузоподъёмность"),React.createElement("b", null, multi?uniqFmt(p.capacities,'кг'):fmt(p.capacity_kg,'кг'))),
-                React.createElement("div", null,React.createElement("small", null, "Скорость"),React.createElement("b", null, multi?uniqFmt(p.speeds,'м/с'):fmt(p.speed_m_s,'м/с'))),
+                React.createElement("div", null,React.createElement("small", null, "Скорость"),React.createElement("b", null, multi?uniqFmt(p.speeds,'м/с'):fmtSpeed(p.speed_m_s))),
                 React.createElement("div", null,React.createElement("small", null, "Мощность"),React.createElement("b", null, multi?uniqFmt(p.powers,'кВт'):fmt(p.power_kw,'кВт'))),
                 React.createElement("div", null,React.createElement("small", null, "Подвес"),React.createElement("b", null, arr(p.suspensions))),
                 React.createElement("div", null,React.createElement("small", null, "КВШ"),React.createElement("b", null, multi?uniqFmt(p.sheave_diameters,'мм'):fmt(p.sheave_diameter_mm,'мм'))),
@@ -182,62 +187,131 @@ class DetailsModal extends Component {
     const rawRows=Object.keys(p.raw||{}).map(k=>React.createElement('div',{key:k},React.createElement('span',null,k),React.createElement('b',null,(p.raw[k]===null||p.raw[k]==='')?'—':String(p.raw[k]))));
     const groupExecs=(g&&Array.isArray(g.executions))?g.executions.filter(Boolean):[];
     const execs=groupExecs.length?groupExecs:[p];
+    const gearless=isGearless(p);
+    const placement=p.placement_type_normalized||p.placement_type||'—';
+    const duty=p.duty_cycle||'—';
+    const brakeCurrent=p.brake_nominal_current_a||'—';
+    const mainRows=[['Грузоподъёмность, кг',fmt(p.capacity_kg)],['Скорость, м/с',fmtSpeed(p.speed_m_s).replace(' м/с','')],['Подвес',arr(p.suspensions)]];
+    if(!gearless) mainRows.push(['Количество скоростей',p.speed_count]);
     return React.createElement('div',{className:'overlay',onMouseDown:e=>{if(e.target===e.currentTarget)this.props.onClose();}},
-      React.createElement('div',{className:'modal product-modal'},
+      React.createElement('div',{className:'modal product-modal v450-card'},
         React.createElement('button',{className:'close',onClick:this.props.onClose},'×'),
-        React.createElement('div',{className:'detail-hero'},React.createElement(MachineVisual,{src:p.image_ref,alt:p.manufacturer+' '+p.model}),React.createElement('div',null,
-          React.createElement('span',{className:'eyebrow'},p.manufacturer),React.createElement('h2',null,p.model),React.createElement('p',null,p.winch_type||'Тип уточняется'),
-          React.createElement('div',{className:'chips'},React.createElement('b',null,fmt(p.capacity_kg,'кг')),React.createElement('b',null,fmt(p.speed_m_s,'м/с')),React.createElement('b',null,fmt(p.power_kw,'кВт'))))),
+        React.createElement('div',{className:'detail-hero v450-hero'},
+          React.createElement(MachineVisual,{src:p.image_ref,alt:p.manufacturer+' '+p.model}),
+          React.createElement('div',{className:'hero-spec'},
+            React.createElement('span',{className:'eyebrow'},p.manufacturer),
+            React.createElement('h2',null,p.model),
+            React.createElement('p',null,p.winch_type||'Тип уточняется'),
+            React.createElement('div',{className:'chips v450-chips'},
+              React.createElement('b',null,fmt(p.capacity_kg,'кг')),
+              React.createElement('b',null,fmtSpeed(p.speed_m_s)),
+              React.createElement('b',null,fmt(p.power_kw,'кВт')),
+              React.createElement('b',null,'Подвес '+arr(p.suspensions)),
+              React.createElement('b',{className:'soft'},placement),
+              duty!=='—'&&React.createElement('b',{className:'soft'},duty)))),
         execs.length>1 && React.createElement(ExecutionSelector,{execs:execs,selectedId:this.state.selectedId,onSelect:(id)=>this.selectExecution(id)}),
-        React.createElement('div',{className:'selected-execution'},React.createElement('span',null,'Выбранное исполнение'),React.createElement('b',null,'#'+p.id+' · '+fmt(p.capacity_kg,'кг')+' · '+fmt(p.speed_m_s,'м/с')+' · '+fmt(p.power_kw,'кВт'))),
-        p.media&&p.media.length>0&&React.createElement('section',{className:'media-library-section'},
-          React.createElement('div',{className:'execution-title'},React.createElement('div',null,React.createElement('span',{className:'eyebrow orange'},'Медиатека'),React.createElement('h3',null,'Фото, чертежи и документы'))),
-          React.createElement('div',{className:'media-gallery-react'},p.media.map((m,i)=>m.media_kind==='document'?React.createElement('a',{key:i,className:'media-doc',href:m.url,target:'_blank'},'📄 '+(m.title||'Документ')):React.createElement('a',{key:i,className:'media-tile',href:m.url,target:'_blank'},React.createElement('img',{src:m.url,alt:m.title||p.model}),React.createElement('b',null,m.title||(m.media_kind==='drawing'?'Чертёж':'Фото')),React.createElement('small',null,m.media_kind==='drawing'?'Чертёж':'Фото'))))),
-        React.createElement('div',{className:'tech-cols'},
-          React.createElement(Tech,{title:'Основные',rows:[['Грузоподъёмность',fmt(p.capacity_kg,'кг')],['Скорость',fmt(p.speed_m_s,'м/с')],['Подвес',arr(p.suspensions)],['Количество скоростей',p.speed_count]]}),
-          React.createElement(Tech,{title:'Привод',rows:[['Мощность',fmt(p.power_kw,'кВт')],['Ток',fmt(p.nominal_current_a,'A')],['Обороты',fmt(p.nominal_rpm,'об/мин')],['Частота',fmt(p.frequency_hz,'Гц')],['Крутящий момент',fmt(p.torque_nm,'Н·м')]]}),
-          React.createElement(Tech,{title:'КВШ и канаты',rows:[['Диаметр КВШ',fmt(p.sheave_diameter_mm,'мм')],['Форма ручья',p.groove_shape],['Угол подреза',p.undercut_angle],['Канаты',arr(p.rope_counts)+' × '+arr(p.rope_diameters_mm)],['Шаг канавок',fmt(p.groove_pitch_mm,'мм')]]}),
-          React.createElement(Tech,{title:'Эксплуатация',rows:[['Консольная нагрузка',fmt(p.max_cantilever_load_kg,'кг')],['Высота подъёма',fmt(p.max_lift_height_m,'м')],['Включений/час',p.starts_per_hour],['Масса',fmt(p.weight_kg,'кг')],['Тормоз',p.brake_voltage||p.brake_supply_voltage]]})),
-        React.createElement('details',{className:'raw-details'},React.createElement('summary',null,'Все характеристики из исходного Excel'),React.createElement('div',{className:'raw-grid'},rawRows)),
-        React.createElement('div',{className:'modal-actions'},
-          React.createElement('button',{className:'detail '+(this.props.isCompared&&this.props.isCompared(p.id)?'dark':''),onClick:()=>this.props.onCompare(p)},this.props.isCompared&&this.props.isCompared(p.id)?'В сравнении':'Добавить исполнение к сравнению'),
+        React.createElement('div',{className:'selected-execution'},React.createElement('span',null,'Выбранное исполнение'),React.createElement('b',null,'#'+p.id+' · '+fmt(p.capacity_kg,'кг')+' · '+fmtSpeed(p.speed_m_s)+' · '+fmt(p.power_kw,'кВт')+' · '+arr(p.suspensions))),
+        React.createElement('div',{className:'v450-quick-actions'},
+          React.createElement('button',{className:'detail '+(this.props.isCompared&&this.props.isCompared(p.id)?'dark':''),onClick:()=>this.props.onCompare(p)},this.props.isCompared&&this.props.isCompared(p.id)?'✓ В сравнении':'⇄ Сравнить'),
           React.createElement('button',{className:'calc',onClick:()=>this.props.onQuote(p)},'Рассчитать стоимость'),
-          React.createElement('a',{className:'detail',href:'/product/'+p.id+'/inquiry?'+params(this.props.filters).toString()},'Заполнить опросный лист'),
-          React.createElement('a',{className:'quote',href:'/product/'+p.id+'/order?'+params(this.props.filters).toString()},'Заказать лебёдку →'))));
+          React.createElement('a',{className:'detail',href:'/product/'+p.id+'/inquiry?'+params(this.props.filters).toString()},'Опросный лист'),
+          React.createElement('a',{className:'quote',href:'/product/'+p.id+'/order?'+params(this.props.filters).toString()},'Заказать →')),
+        React.createElement('div',{className:'tech-cols v450-tech'},
+          React.createElement(Tech,{title:'Основное',rows:mainRows}),
+          React.createElement(Tech,{title:'Привод',rows:[['Мощность, кВт',fmt(p.power_kw)],['Ток, А',fmt(p.nominal_current_a)],['Номинальная частота вращения, об/мин',fmt(p.nominal_rpm)],['Номинальная частота, Гц',fmt(p.frequency_hz)],['Крутящий момент, Нм',fmt(p.torque_nm)]]}),
+          React.createElement(Tech,{title:'КВШ и канаты',rows:[['Диаметр КВШ, мм',fmt(p.sheave_diameter_mm)],['Форма ручья',grooveLabel(p.groove_shape)],['Угол подреза',p.undercut_angle==null?'По согласованию':fmt(p.undercut_angle,'°')],['Число канатов, шт. × Диаметр канатов, мм',ropeSpec(p)],['Расстояние между канатами, мм',fmt(p.groove_pitch_mm)]]}),
+          React.createElement(Tech,{title:'Эксплуатация',rows:[['Консольная нагрузка, кг',fmt(p.max_cantilever_load_kg)],['Высота подъёма, м',p.max_lift_height_m==null?'Определяется по результатам подбора':fmt(p.max_lift_height_m)],['Включений в час',fmt(p.starts_per_hour)],['Режим работы',duty],['Масса, кг',fmt(p.weight_kg)]]}),
+          React.createElement(Tech,{title:'Тормоз',rows:[['Напряжение тормоза, В',p.brake_voltage||p.brake_supply_voltage||'—'],['Номинальный ток, А',brakeCurrent]]}),
+          React.createElement(Tech,{title:'Габариты и присоединение',rows:[['Габаритные размеры','См. технический чертёж'],['Присоединительные размеры','См. технический чертёж']]})),
+        p.media&&p.media.length>0&&React.createElement('section',{className:'media-library-section v450-media'},
+          React.createElement('div',{className:'execution-title'},React.createElement('div',null,React.createElement('span',{className:'eyebrow orange'},'Технические материалы'),React.createElement('h3',null,'Фото, чертежи и документы'))),
+          React.createElement('div',{className:'media-gallery-react'},p.media.map((m,i)=>m.media_kind==='document'?React.createElement('a',{key:i,className:'media-doc',href:m.url,target:'_blank'},'📄 '+(m.title||'Документ')):React.createElement('a',{key:i,className:'media-tile',href:m.url,target:'_blank'},React.createElement('img',{src:m.url,alt:m.title||p.model}),React.createElement('b',null,m.title||(m.media_kind==='drawing'?'Чертёж':'Фото')),React.createElement('small',null,m.media_kind==='drawing'?'Чертёж':'Фото'))))),
+        React.createElement('details',{className:'raw-details'},React.createElement('summary',null,'Все исходные характеристики'),React.createElement('div',{className:'raw-grid'},rawRows))));
   }
 }
-function Tech({ title, rows }) { return React.createElement("section", { className: "tech" },
-    React.createElement("h4", null, title),
-    rows.map((r, i) => { var _a; return React.createElement("div", { key: i },
-        React.createElement("span", null, r[0]),
-        React.createElement("b", null, (_a = r[1]) !== null && _a !== void 0 ? _a : '—')); })); }
+function Tech({ title, rows }) {
+  const clean=(rows||[]).filter(Boolean);
+  return React.createElement("section",{className:"tech"},
+    React.createElement("h4",null,title),
+    clean.map((r,i)=>React.createElement("div",{key:i},
+      React.createElement("span",null,r[0]),
+      React.createElement("b",null,(r[1]===null||r[1]===undefined||r[1]==='')?'—':r[1])
+    ))
+  );
+}
 class CompareModal extends Component {
-    constructor(p) { super(p); this.state = { data: null }; }
-    componentDidMount() { this.load(this.props.items); }
-    componentDidUpdate(prev) { if (prev.items.map(x => x.id).join(',') !== this.props.items.map(x => x.id).join(','))
-        this.load(this.props.items); }
-    load(items) { fetch('/api/compare', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ids: items.map(x => x.id) }) }).then(r => r.json()).then(data => this.setState({ data })); }
-    render() { const d = this.state.data; return React.createElement("div", { className: "overlay" },
-        React.createElement("div", { className: "modal compare-modal" },
-            React.createElement("button", { className: "close", onClick: this.props.onClose }, "\u00D7"),
-            React.createElement("span", { className: "eyebrow" }, "\u0418\u043D\u0436\u0435\u043D\u0435\u0440\u043D\u043E\u0435 \u0441\u0440\u0430\u0432\u043D\u0435\u043D\u0438\u0435"),
-            React.createElement("h2", null,
-                "\u0421\u0440\u0430\u0432\u043D\u0435\u043D\u0438\u0435 ",
-                this.props.items.length,
-                " \u043C\u043E\u0434\u0435\u043B\u0435\u0439"),
-            !d ? React.createElement("div", { className: "loading" }, "\u0424\u043E\u0440\u043C\u0438\u0440\u0443\u0435\u043C \u0441\u0440\u0430\u0432\u043D\u0435\u043D\u0438\u0435\u2026") : React.createElement("div", { className: "compare-scroll" },
-                React.createElement("table", null,
-                    React.createElement("thead", null,
-                        React.createElement("tr", null,
-                            React.createElement("th", null, "\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440"),
-                            d.items.map(p => React.createElement("th", { key: p.id },
-                                React.createElement(MachineVisual, { src: p.image_ref, alt: p.manufacturer + " " + p.model }),
-                                React.createElement("small", null, p.manufacturer),
-                                React.createElement("b", null, p.model),
-                                React.createElement("button", { onClick: () => this.props.onRemove(p.id) }, "\u00D7"))))),
-                    React.createElement("tbody", null, d.fields.map(f => React.createElement("tr", { key: f.key },
-                        React.createElement("td", null, f.label),
-                        d.items.map(p => React.createElement("td", { key: p.id }, fmt(p[f.key], f.unit)))))))))); }
+  constructor(p){ super(p); this.state={data:null,onlyDiffs:true}; }
+  componentDidMount(){ this.load(this.props.items); }
+  componentDidUpdate(prev){
+    if(prev.items.map(x=>x.id).join(',')!==this.props.items.map(x=>x.id).join(',')) this.load(this.props.items);
+  }
+  load(items){
+    fetch('/api/compare',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({ids:items.map(x=>x.id)})})
+      .then(r=>r.json()).then(data=>this.setState({data:data}));
+  }
+  render(){
+    const h=React.createElement;
+    const d=this.state.data;
+    if(!d){
+      return h('div',{className:'overlay'},
+        h('div',{className:'modal compare-modal'},
+          h('button',{className:'close',onClick:this.props.onClose},'×'),
+          h('div',{className:'loading'},'Формируем сравнение…')
+        )
+      );
+    }
+    const fields=(d.fields||[]).map(f=>{
+      const values=(d.items||[]).map(p=>normalizedCompareValue(p,f));
+      return Object.assign({},f,{values:values,diff:new Set(values).size>1});
+    });
+    const diffFields=fields.filter(f=>f.diff);
+    const visible=this.state.onlyDiffs?diffFields:fields;
+    const summary=diffFields.length?diffFields.slice(0,6).map(f=>f.label).join(', '):'существенных различий в доступных характеристиках нет';
+    const headers=(d.items||[]).map(p=>h('th',{key:p.id},
+      h(MachineVisual,{src:p.image_ref,alt:p.manufacturer+' '+p.model}),
+      h('small',null,p.manufacturer),
+      h('b',null,p.model),
+      h('em',null,'Исполнение #'+p.id),
+      h('div',{className:'compare-head-actions'},
+        h('button',{type:'button',onClick:()=>this.props.onDetails&&this.props.onDetails(p.id)},'Карточка'),
+        h('button',{type:'button',onClick:()=>this.props.onQuote&&this.props.onQuote(p)},'Рассчитать')
+      ),
+      h('button',{type:'button',className:'compare-remove',onClick:()=>this.props.onRemove(p.id),title:'Убрать из сравнения'},'×')
+    ));
+    let bodyRows;
+    if(visible.length){
+      bodyRows=visible.map(f=>h('tr',{key:f.key,className:f.diff?'is-diff':'is-same'},
+        h('td',null,f.label),
+        ...(d.items||[]).map((p,i)=>h('td',{key:p.id,className:f.diff?'diff-value':''},f.values[i]))
+      ));
+    }else{
+      bodyRows=[h('tr',{key:'empty'},
+        h('td',{colSpan:(d.items||[]).length+1,className:'compare-empty'},'Отличий по доступным параметрам не найдено. Переключите «Все параметры» для полного просмотра.')
+      )];
+    }
+    return h('div',{className:'overlay'},
+      h('div',{className:'modal compare-modal v450-compare'},
+        h('button',{className:'close',onClick:this.props.onClose},'×'),
+        h('span',{className:'eyebrow'},'Инженерное сравнение'),
+        h('div',{className:'compare-heading'},
+          h('div',null,
+            h('h2',null,'Сравнение ',(d.items||[]).length,' исполнений'),
+            h('p',null,'Главные отличия: ',summary)
+          ),
+          h('div',{className:'compare-mode'},
+            h('button',{type:'button',className:this.state.onlyDiffs?'active':'',onClick:()=>this.setState({onlyDiffs:true})},'Только отличия'),
+            h('button',{type:'button',className:!this.state.onlyDiffs?'active':'',onClick:()=>this.setState({onlyDiffs:false})},'Все параметры')
+          )
+        ),
+        h('div',{className:'compare-scroll'},
+          h('table',null,
+            h('thead',null,h('tr',null,h('th',null,'Параметр'),...headers)),
+            h('tbody',null,...bodyRows)
+          )
+        )
+      )
+    );
+  }
 }
 
 class QuoteModal extends Component {
@@ -499,12 +573,12 @@ class App extends Component {
                     React.createElement("button", { disabled: compare.length < 2, onClick: () => this.setState({ compareOpen: true }) }, "\u21C4 \u0421\u0440\u0430\u0432\u043D\u0438\u0442\u044C"))),
             this.state.details && React.createElement(DetailsModal, { id: this.state.details, filters: filters, isCompared: id => compare.some(x => x.id === id), onClose: () => this.setState({ details: null }), onCompare: p => this.toggleCompare(p), onQuote: p => this.setState({ quoteProduct: p, details: null }) }),
             " ",
-            this.state.compareOpen && React.createElement(CompareModal, { items: compare, onClose: () => this.setState({ compareOpen: false }), onRemove: id => this.setState({ compare: compare.filter(x => x.id !== id) }) }),
+            this.state.compareOpen && React.createElement(CompareModal, { items: compare, onClose: () => this.setState({ compareOpen: false }), onRemove: id => this.setState({ compare: compare.filter(x => x.id !== id) }), onDetails: id => this.setState({ details: id, compareOpen: false }), onQuote: p => this.setState({ quoteProduct: p, compareOpen: false }) }),
             this.state.quoteProduct && React.createElement(QuoteModal, { product: this.state.quoteProduct, onClose: () => this.setState({ quoteProduct: null }) }),
             React.createElement("footer", null,
                 React.createElement("div", { className: "wrap" },
                     React.createElement("b", null, "LIFTORG B2B"),
-                    React.createElement("span", null, "React engineering platform 4.2 \u00B7 \u0438\u0441\u0442\u043E\u0447\u043D\u0438\u043A \u0434\u0430\u043D\u043D\u044B\u0445: \u0430\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0437\u0430\u043A\u0430\u0437\u0447\u0438\u043A\u0430"),
+                    React.createElement("span", null, "React engineering platform 4.5.0 \u00B7 \u0438\u0441\u0442\u043E\u0447\u043D\u0438\u043A \u0434\u0430\u043D\u043D\u044B\u0445: \u0430\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0437\u0430\u043A\u0430\u0437\u0447\u0438\u043A\u0430"),
                     React.createElement("a", { href: "/legacy" }, "\u0420\u0435\u0437\u0435\u0440\u0432\u043D\u0430\u044F \u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F"))));
     }
 }

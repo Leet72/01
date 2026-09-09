@@ -8,6 +8,15 @@ def fmt(v):
     if isinstance(v, float) and v.is_integer(): return str(int(v))
     return str(v).replace('.', ',')
 
+def fmt_speed(v):
+    if v in (None, ''): return '—'
+    try: return f"{float(v):.1f}".replace('.', ',')
+    except Exception: return fmt(v)
+
+def groove_label(v):
+    z=str(v or '').strip().upper()
+    return {'U':'U — U-образная с подрезом','V':'V — V-образная с подрезом','VH':'VH — V-образная закалённая с подрезом'}.get(z, v or 'По согласованию')
+
 def fnum(v):
     if v in (None, ''): return None
     try: return float(str(v).replace(',', '.'))
@@ -117,24 +126,39 @@ def render_index(request, ctx):
 
 def render_product(p):
     title=f"{p.get('manufacturer','')} {p.get('model','')}"
-    cells=[]
-    priority=[('Производитель','manufacturer'),('Модель','model'),('Тип лебёдки','winch_type'),('Грузоподъёмность, кг','capacity_kg'),('Скорость, м/с','speed_m_s'),('Мощность, кВт','power_kw'),('Подвеска','suspensions'),('КВШ, мм','sheave_diameter_mm'),('Количество канатов','rope_counts'),('Диаметр канатов, мм','rope_diameters_mm'),('Макс. консольная нагрузка, кг','max_cantilever_load_kg'),('Высота подъёма, м','max_lift_height_m'),('Угол подреза','undercut_angle'),('Масса, кг','weight_kg'),('Передаточное число','gear_ratio')]
-    for label,key in priority:
-        val=p.get(key)
-        if isinstance(val,list): val=', '.join(map(str,val))
-        cells.append(f'<div class="detail-cell"><small>{html.escape(label)}</small><b>{html.escape(fmt(val))}</b></div>')
+    gearless='безредукт' in str(p.get('winch_type') or '').lower()
+    placement=p.get('placement_type_normalized') or p.get('placement_type') or '—'
+    main=[('Грузоподъёмность, кг','capacity_kg'),('Скорость, м/с','speed_m_s'),('Подвес','suspensions')]
+    if not gearless: main.append(('Количество скоростей','speed_count'))
+    groups=[
+      ('Основное',main),
+      ('Привод',[('Мощность, кВт','power_kw'),('Ток, А','nominal_current_a'),('Номинальная частота вращения, об/мин','nominal_rpm'),('Номинальная частота, Гц','frequency_hz'),('Крутящий момент, Нм','torque_nm')]),
+      ('КВШ и канаты',[('Диаметр КВШ, мм','sheave_diameter_mm'),('Форма ручья','groove_shape'),('Угол подреза','undercut_angle'),('Число канатов, шт. × Диаметр канатов, мм','rope_spec'),('Расстояние между канатами, мм','groove_pitch_mm')]),
+      ('Эксплуатация',[('Консольная нагрузка, кг','max_cantilever_load_kg'),('Высота подъёма, м','max_lift_height_m'),('Включений в час','starts_per_hour'),('Режим работы','duty_cycle'),('Масса, кг','weight_kg')]),
+      ('Тормоз',[('Напряжение тормоза, В','brake_voltage'),('Номинальный ток, А','brake_nominal_current_a')]),
+    ]
+    def value(key):
+        if key=='speed_m_s': return fmt_speed(p.get(key))
+        if key=='suspensions': return ', '.join(map(str,p.get(key) or [])) or '—'
+        if key=='groove_shape': return groove_label(p.get(key))
+        if key=='undercut_angle': return 'По согласованию' if p.get(key) in (None,'') else fmt(p.get(key))+'°'
+        if key=='rope_spec': return f"{', '.join(map(str,p.get('rope_counts') or [])) or '—'} × {', '.join(fmt(x) for x in (p.get('rope_diameters_mm') or [])) or '—'}"
+        if key=='max_lift_height_m' and p.get(key) in (None,''): return 'Определяется по результатам подбора'
+        return fmt(p.get(key))
+    blocks=[]
+    for title_g,rows in groups:
+        cells=''.join(f'<div class="detail-cell"><small>{html.escape(label)}</small><b>{html.escape(value(key))}</b></div>' for label,key in rows)
+        blocks.append(f'<section class="product-spec-group"><h3>{html.escape(title_g)}</h3><div class="detail-grid">{cells}</div></section>')
     media=p.get('media') or []
-    photos=[x for x in media if x.get('media_kind')=='photo']
-    drawings=[x for x in media if x.get('media_kind')=='drawing']
-    documents=[x for x in media if x.get('media_kind')=='document']
+    photos=[x for x in media if x.get('media_kind')=='photo']; drawings=[x for x in media if x.get('media_kind')=='drawing']; documents=[x for x in media if x.get('media_kind')=='document']
     gallery=[]
     for x in photos+drawings:
-        url=html.escape(str(x.get('url') or '')); title=html.escape(str(x.get('title') or ('Фото оборудования' if x.get('media_kind')=='photo' else 'Габаритный чертёж')))
-        gallery.append(f'<a class="media-gallery-item" href="{url}" target="_blank"><img src="{url}" alt="{title}"><span>{title}</span><small>{"Фото" if x.get("media_kind")=="photo" else "Чертёж"} · {html.escape(str(x.get("scope_type") or ""))}</small></a>')
+        url=html.escape(str(x.get('url') or '')); mt=html.escape(str(x.get('title') or ('Фото оборудования' if x.get('media_kind')=='photo' else 'Габаритный чертёж')))
+        gallery.append(f'<a class="media-gallery-item" href="{url}" target="_blank"><img src="{url}" alt="{mt}"><span>{mt}</span><small>{"Фото" if x.get("media_kind")=="photo" else "Чертёж"}</small></a>')
     docs=''.join(f'<a class="server-link" href="{html.escape(str(x.get("url") or ""))}" target="_blank">📄 {html.escape(str(x.get("title") or "Документ"))}</a>' for x in documents)
-    raw=p.get('raw') or {}
-    rawcells=''.join(f'<div class="detail-cell"><small>{html.escape(str(k))}</small><b>{html.escape(fmt(v))}</b></div>' for k,v in raw.items())
-    return base_head(title)+f'''<style>.media-gallery{{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin:16px 0 22px}}.media-gallery-item{{border:1px solid #dbe5eb;border-radius:14px;overflow:hidden;background:#fff;text-decoration:none;color:#17384d}}.media-gallery-item img{{width:100%;height:180px;object-fit:contain;background:#f7fafc;display:block}}.media-gallery-item span,.media-gallery-item small{{display:block;padding:8px 10px 0;font-weight:800}}.media-gallery-item small{{padding:0 10px 10px;color:#758995;font-size:10px}}</style><main class="tech-detail"><a class="server-link" href="/">← К подбору</a><div class="detail-title"><span class="section-kicker">Технический паспорт</span><h1>{html.escape(title)}</h1><p>{html.escape(str(p.get('winch_type') or ''))}</p></div>{('<section><span class="section-kicker">Медиаматериалы</span><h2>Фото и чертежи</h2><div class="media-gallery">'+''.join(gallery)+'</div>'+('<div class="server-actions">'+docs+'</div>' if docs else '')+'</section>') if gallery or docs else ''}<div class="detail-grid">{''.join(cells)}</div><div class="server-actions" style="max-width:500px"><a class="server-link" href="/product/{p['id']}/inquiry">Заполнить опросный лист</a><a class="server-link primary" href="/product/{p['id']}/order">Заказать лебёдку</a><a class="server-link" href="/#calculator">Калькулятор</a></div><details class="server-group"><summary><b>Все исходные характеристики Excel</b></summary><div class="detail-grid" style="margin-top:12px">{rawcells}</div></details></main></body></html>'''
+    raw=p.get('raw') or {}; rawcells=''.join(f'<div class="detail-cell"><small>{html.escape(str(k))}</small><b>{html.escape(fmt(v))}</b></div>' for k,v in raw.items())
+    chips=f'<span>{fmt(p.get("capacity_kg"))} кг</span><span>{fmt_speed(p.get("speed_m_s"))} м/с</span><span>{fmt(p.get("power_kw"))} кВт</span><span>Подвес {html.escape(", ".join(map(str,p.get("suspensions") or [])) or "—")}</span><span>{html.escape(str(placement))}</span>'
+    return base_head(title)+f'''<style>.product-hero{{display:grid;grid-template-columns:320px 1fr;gap:24px;padding:22px;border:1px solid #dce6eb;border-radius:18px;background:#f4f8fa;margin:18px 0}}.product-hero img{{width:100%;height:240px;object-fit:contain;background:#fff;border-radius:13px}}.product-chips{{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}}.product-chips span{{background:#0d3046;color:#fff;padding:7px 10px;border-radius:8px;font-size:11px;font-weight:900}}.product-actions{{position:sticky;top:8px;z-index:5;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:10px;background:#ffffffed;border:1px solid #dce6eb;border-radius:13px;backdrop-filter:blur(10px)}}.product-spec-group{{margin:18px 0}}.product-spec-group h3{{margin:0 0 9px}}.media-gallery{{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin:16px 0 22px}}.media-gallery-item{{border:1px solid #dbe5eb;border-radius:14px;overflow:hidden;background:#fff;text-decoration:none;color:#17384d}}.media-gallery-item img{{width:100%;height:180px;object-fit:contain;background:#f7fafc;display:block}}.media-gallery-item span,.media-gallery-item small{{display:block;padding:8px 10px 0;font-weight:800}}.media-gallery-item small{{padding:0 10px 10px;color:#758995;font-size:10px}}@media(max-width:760px){{.product-hero{{grid-template-columns:1fr}}.product-actions{{bottom:0;top:auto;grid-template-columns:1fr}}}}</style><main class="tech-detail"><a class="server-link" href="/">← К подбору</a><section class="product-hero"><div>{f'<img src="{html.escape(str(p.get("image_ref") or ""))}" alt="{html.escape(title)}">' if p.get('image_ref') else ''}</div><div><span class="section-kicker">Технический паспорт</span><h1>{html.escape(title)}</h1><p>{html.escape(str(p.get('winch_type') or ''))}</p><div class="product-chips">{chips}</div></div></section><div class="product-actions"><a class="server-link" href="/product/{p['id']}/inquiry">Опросный лист</a><a class="server-link primary" href="/product/{p['id']}/order">Заказать</a><a class="server-link" href="/#calculator">Рассчитать стоимость</a></div>{''.join(blocks)}<section class="product-spec-group"><h3>Габариты и присоединение</h3><p>Габаритные и присоединительные размеры, которых нет в структурированных данных, смотрите на техническом чертеже.</p></section>{('<section><span class="section-kicker">Технические материалы</span><h2>Фото, чертежи и документы</h2><div class="media-gallery">'+''.join(gallery)+'</div>'+('<div class="server-actions">'+docs+'</div>' if docs else '')+'</section>') if gallery or docs else ''}<details class="server-group"><summary><b>Все исходные характеристики</b></summary><div class="detail-grid" style="margin-top:12px">{rawcells}</div></details></main></body></html>'''
 
 def prefill_value(field,p,qp):
     code=field.get('code')

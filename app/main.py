@@ -268,7 +268,7 @@ def bootstrap_legacy_media() -> int:
 MEDIA_BOOTSTRAPPED = bootstrap_legacy_media()
 refresh_media()
 
-app = FastAPI(title="Liftorg B2B Engineering Catalog", version="4.4.10")
+app = FastAPI(title="Liftorg B2B Engineering Catalog", version="4.5.0")
 app.add_middleware(GZipMiddleware, minimum_size=800)
 app.mount("/static", StaticFiles(directory=ROOT / "app" / "static"), name="static")
 app.mount("/react-assets", StaticFiles(directory=ROOT / "app" / "react_dist"), name="react-assets")
@@ -619,8 +619,47 @@ def apply_placement_rules_to_db() -> int:
     return changed
 
 
+def correct_gtw9s_card_data_in_db() -> int:
+    """Комментарии заказчика 08.09.2026 к карточке GTW9S.
+
+    Для текущего исполнения GTW9S-41P0AD-1 параметры мощности относятся к
+    подвесу 1:1; подвес 2:1 является другим исполнением/лебёдкой. Также
+    материализуем подтверждённые данные карточки: S5 (40%), 180 включений/ч
+    и номинальный ток тормоза 2×1,28 А. Неизвестные габариты/углы не заполняем.
+    """
+    changed = 0
+    with db_conn() as con:
+        rows = con.execute("SELECT id,payload FROM products").fetchall()
+        for row in rows:
+            data = json.loads(row["payload"])
+            model = str(data.get("model") or "").upper().strip()
+            if model != "GTW9S-41P0AD-1":
+                continue
+            expected = {
+                "suspensions": ["1:1"],
+                "duty_cycle": "S5 (40%)",
+                "starts_per_hour": 180,
+                "brake_nominal_current_a": "2×1,28",
+                "customer_card_note": "Параметры мощности относятся к подвесу 1:1; подвес 2:1 — другое исполнение/лебёдка.",
+            }
+            dirty = any(data.get(k) != v for k, v in expected.items())
+            if not dirty:
+                continue
+            data.update(expected)
+            con.execute(
+                "UPDATE products SET payload=?, updated_at=CURRENT_TIMESTAMP WHERE id=?",
+                (json.dumps(data, ensure_ascii=False), row["id"]),
+            )
+            changed += 1
+    if changed:
+        refresh_products()
+    return changed
+
+
 # Коррекция WJC-T выполняется раньше общего правила размещения.
 WJC_T_CORRECTIONS_APPLIED = correct_wjc_t_classification_in_db()
+# Подтверждённые комментарии заказчика по GTW9S материализуются в рабочей SQLite-БД.
+GTW9S_CARD_CORRECTIONS_APPLIED = correct_gtw9s_card_data_in_db()
 # Миграция безопасно выполняется при старте и сохраняет классификацию в восстановленной БД.
 PLACEMENT_RULES_APPLIED = apply_placement_rules_to_db()
 
@@ -1820,10 +1859,10 @@ def health():
     try:
         with db_conn() as con:
             count=con.execute("SELECT COUNT(*) FROM products WHERE active=1").fetchone()[0]
-        return {"ok":True,"version":"4.4.10","products":count,"database":"ok"}
+        return {"ok":True,"version":"4.5.0","products":count,"database":"ok"}
     except Exception as e:
         raise HTTPException(status_code=503, detail=str(e))
 
 @app.get("/api/version")
 def version_info():
-    return {"version":"4.4.10","product":"Liftorg B2B Engineering Platform","spec":"MASTER_SPEC.md","mode":"react-model-groups+wjc-t-volume-mrl+execution-selector-runtime-fix+buyer-visibility+persistent-media+media-library+inheritance+admin-upload+placement-rules+tdna-clean-survey+selection-summary+tdna-si+ru-sheave-terminology+zoom-sketches+optional-survey+direct-order+autosave+explainable-search"}
+    return {"version":"4.5.0","product":"Liftorg B2B Engineering Platform","spec":"MASTER_SPEC.md","mode":"react-model-groups+wjc-t-volume-mrl+execution-selector-runtime-fix+buyer-visibility+persistent-media+media-library+inheritance+admin-upload+placement-rules+tdna-clean-survey+selection-summary+tdna-si+ru-sheave-terminology+zoom-sketches+optional-survey+direct-order+autosave+explainable-search"}

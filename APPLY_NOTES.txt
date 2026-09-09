@@ -1,0 +1,9 @@
+Liftorg v4.4.10 patch — WJC-T classification correction
+Date: 2026-08-28
+
+Customer-confirmed rule:
+- WJC-T = Безредукторная объёмная таблетка
+- placement = Без машинного помещения (MRL)
+
+The running SQLite DB is corrected automatically at application startup.
+Do not overwrite storage/, media-library/, winches/.

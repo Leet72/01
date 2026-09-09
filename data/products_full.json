@@ -83414,7 +83414,6 @@
     "capacity_kg": 400.0,
     "max_lift_height_m": null,
     "suspensions": [
-      "2:1",
       "1:1"
     ],
     "power_kw": 2.7,
@@ -83434,7 +83433,7 @@
     "sheave_diameter_mm": 400.0,
     "torque_nm": 530.0,
     "speed_count": 1,
-    "starts_per_hour": null,
+    "starts_per_hour": 180,
     "vfd": null,
     "vfd_brand": null,
     "encoder": null,
@@ -83455,7 +83454,7 @@
     "winding_type": null,
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5 (40%)",
     "raw": {
       "Модель": "GTW9S-41P0AD-1",
       "Изображение": null,
@@ -83499,7 +83498,9 @@
       "поставка с рамой": null,
       "код рамы": null
     },
-    "id": 835
+    "id": 835,
+    "brake_nominal_current_a": "2×1,28",
+    "customer_card_note": "Параметры мощности относятся к подвесу 1:1; подвес 2:1 — другое исполнение/лебёдка."
   },
   {
     "source_sheet": "Лебедки Torindrive",
