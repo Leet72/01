@@ -268,7 +268,7 @@ def bootstrap_legacy_media() -> int:
 MEDIA_BOOTSTRAPPED = bootstrap_legacy_media()
 refresh_media()
 
-app = FastAPI(title="Liftorg B2B Engineering Catalog", version="4.5.0")
+app = FastAPI(title="Liftorg B2B Engineering Catalog", version="4.5.1")
 app.add_middleware(GZipMiddleware, minimum_size=800)
 app.mount("/static", StaticFiles(directory=ROOT / "app" / "static"), name="static")
 app.mount("/react-assets", StaticFiles(directory=ROOT / "app" / "react_dist"), name="react-assets")
@@ -656,10 +656,42 @@ def correct_gtw9s_card_data_in_db() -> int:
     return changed
 
 
+
+def correct_vl_card_data_in_db() -> int:
+    """Коррекция заказчика 24.09.2026 для всей серии Nidec VL."""
+    current_map = {
+        "VL-250-40-D": {3.5: 380, 6.1: 220}, "VL-250-63-D": {3.5: 380, 6.1: 220}, "VL-250-100-D": {3.5: 380, 6.1: 220},
+        "VL-320-40-D": {4.3: 380, 7.4: 220}, "VL-320-63-D": {4.3: 380, 7.4: 220}, "VL-320-100-D": {4.3: 380, 7.4: 220},
+        "VL-400-40-D": {5.7: 380, 9.9: 220}, "VL-400-63-D": {5.7: 380, 9.9: 220}, "VL-400-100-D": {5.7: 380, 9.9: 220},
+        "VL-450-40-D": {6.5: 380, 11.2: 220}, "VL-450-63-D": {6.5: 380, 11.2: 220}, "VL-450-100-D": {6.5: 380, 11.2: 220},
+    }
+    def as_number(value):
+        if value in (None, ""): return None
+        if isinstance(value, (int, float)): return float(value)
+        m = re.search(r"-?\d+(?:[.,]\d+)?", str(value))
+        return float(m.group(0).replace(",", ".")) if m else None
+    changed=0
+    with db_conn() as con:
+        for row in con.execute("SELECT id,payload FROM products").fetchall():
+            data=json.loads(row["payload"]); model=str(data.get("model") or "").strip().upper(); mfr=str(data.get("manufacturer") or "").strip().lower()
+            if mfr != "nidec" or not model.startswith("VL-"): continue
+            expected={"duty_cycle":"S5-25%","brake_supply_voltage":"DC 110","brake_voltage":"DC 110","vl_card_source_note":"Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%."}
+            cur=as_number(data.get("nominal_current_a"))
+            if model in current_map and cur is not None:
+                for expected_current,voltage in current_map[model].items():
+                    if abs(cur-expected_current)<0.051: expected["motor_supply_voltage_v"]=voltage; break
+            if all(data.get(k)==v for k,v in expected.items()): continue
+            data.update(expected); con.execute("UPDATE products SET payload=?, updated_at=CURRENT_TIMESTAMP WHERE id=?",(json.dumps(data,ensure_ascii=False),row["id"])); changed+=1
+    if changed: refresh_products()
+    return changed
+
+
 # Коррекция WJC-T выполняется раньше общего правила размещения.
 WJC_T_CORRECTIONS_APPLIED = correct_wjc_t_classification_in_db()
 # Подтверждённые комментарии заказчика по GTW9S материализуются в рабочей SQLite-БД.
 GTW9S_CARD_CORRECTIONS_APPLIED = correct_gtw9s_card_data_in_db()
+# Коррекция заказчика 24.09.2026 для Nidec VL.
+VL_CARD_CORRECTIONS_APPLIED = correct_vl_card_data_in_db()
 # Миграция безопасно выполняется при старте и сохраняет классификацию в восстановленной БД.
 PLACEMENT_RULES_APPLIED = apply_placement_rules_to_db()
 
@@ -959,6 +991,7 @@ def search(
                     "powers":[],
                     "sheave_diameters":[],
                     "weights":[],
+                    "motor_supply_voltages":[],
                 }
                 order.append(key)
             g=grouped[key]
@@ -966,12 +999,12 @@ def search(
             g["execution_ids"].append(item["id"])
             if item["match_status"]=="matched": g["matched_execution_count"] += 1
             else: g["clarification_execution_count"] += 1
-            for field,target in [("capacity_kg","capacities"),("speed_m_s","speeds"),("power_kw","powers"),("sheave_diameter_mm","sheave_diameters"),("weight_kg","weights")]:
+            for field,target in [("capacity_kg","capacities"),("speed_m_s","speeds"),("power_kw","powers"),("sheave_diameter_mm","sheave_diameters"),("weight_kg","weights"),("motor_supply_voltage_v","motor_supply_voltages")]:
                 v=item.get(field)
                 if v not in (None,"") and v not in g[target]: g[target].append(v)
             # If a later execution is fully confirmed while representative is only a candidate, promote it.
             if g.get("match_status")!="matched" and item.get("match_status")=="matched":
-                keep={k:g[k] for k in ["execution_count","execution_ids","matched_execution_count","clarification_execution_count","capacities","speeds","powers","sheave_diameters","weights"]}
+                keep={k:g[k] for k in ["execution_count","execution_ids","matched_execution_count","clarification_execution_count","capacities","speeds","powers","sheave_diameters","weights","motor_supply_voltages"]}
                 g.clear(); g.update(item); g.update(keep)
         results=[grouped[k] for k in order]
         for g in results:
@@ -1859,10 +1892,10 @@ def health():
     try:
         with db_conn() as con:
             count=con.execute("SELECT COUNT(*) FROM products WHERE active=1").fetchone()[0]
-        return {"ok":True,"version":"4.5.0","products":count,"database":"ok"}
+        return {"ok":True,"version":"4.5.1","products":count,"database":"ok"}
     except Exception as e:
         raise HTTPException(status_code=503, detail=str(e))
 
 @app.get("/api/version")
 def version_info():
-    return {"version":"4.5.0","product":"Liftorg B2B Engineering Platform","spec":"MASTER_SPEC.md","mode":"react-model-groups+wjc-t-volume-mrl+execution-selector-runtime-fix+buyer-visibility+persistent-media+media-library+inheritance+admin-upload+placement-rules+tdna-clean-survey+selection-summary+tdna-si+ru-sheave-terminology+zoom-sketches+optional-survey+direct-order+autosave+explainable-search"}
+    return {"version":"4.5.1","product":"Liftorg B2B Engineering Platform","spec":"MASTER_SPEC.md","mode":"react-model-groups+wjc-t-volume-mrl+execution-selector-runtime-fix+buyer-visibility+persistent-media+media-library+inheritance+admin-upload+placement-rules+tdna-clean-survey+selection-summary+tdna-si+ru-sheave-terminology+zoom-sketches+optional-survey+direct-order+autosave+explainable-search"}

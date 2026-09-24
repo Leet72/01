@@ -80736,7 +80736,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -80751,7 +80751,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-250-40-D",
       "Изображение": null,
@@ -80797,7 +80797,10 @@
     },
     "id": 808,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -80836,7 +80839,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -80851,7 +80854,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-250-63-D",
       "Изображение": null,
@@ -80897,7 +80900,10 @@
     },
     "id": 809,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -80936,7 +80942,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -80951,7 +80957,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-250-100-D",
       "Изображение": null,
@@ -80997,7 +81003,10 @@
     },
     "id": 810,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -81036,7 +81045,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -81051,7 +81060,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-250-40-D",
       "Изображение": null,
@@ -81097,7 +81106,10 @@
     },
     "id": 811,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -81136,7 +81148,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -81151,7 +81163,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-250-63-D",
       "Изображение": null,
@@ -81197,7 +81209,10 @@
     },
     "id": 812,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -81236,7 +81251,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -81251,7 +81266,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-250-100-D",
       "Изображение": null,
@@ -81297,7 +81312,10 @@
     },
     "id": 813,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -81336,7 +81354,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -81351,7 +81369,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-320-40-D",
       "Изображение": null,
@@ -81397,7 +81415,10 @@
     },
     "id": 814,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -81436,7 +81457,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -81451,7 +81472,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-320-63-D",
       "Изображение": null,
@@ -81497,7 +81518,10 @@
     },
     "id": 815,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -81536,7 +81560,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -81551,7 +81575,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-320-100-D",
       "Изображение": null,
@@ -81597,7 +81621,10 @@
     },
     "id": 816,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -81636,7 +81663,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -81651,7 +81678,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-320-40-D",
       "Изображение": null,
@@ -81697,7 +81724,10 @@
     },
     "id": 817,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -81736,7 +81766,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -81751,7 +81781,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-320-63-D",
       "Изображение": null,
@@ -81797,7 +81827,10 @@
     },
     "id": 818,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -81836,7 +81869,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -81851,7 +81884,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-320-100-D",
       "Изображение": null,
@@ -81897,7 +81930,10 @@
     },
     "id": 819,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -81936,7 +81972,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -81951,7 +81987,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-400-40-D",
       "Изображение": null,
@@ -81997,7 +82033,10 @@
     },
     "id": 820,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -82036,7 +82075,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -82051,7 +82090,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-400-63-D",
       "Изображение": null,
@@ -82097,7 +82136,10 @@
     },
     "id": 821,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -82136,7 +82178,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -82151,7 +82193,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-400-100-D",
       "Изображение": null,
@@ -82197,7 +82239,10 @@
     },
     "id": 822,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -82236,7 +82281,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -82251,7 +82296,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-400-40-D",
       "Изображение": null,
@@ -82297,7 +82342,10 @@
     },
     "id": 823,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -82336,7 +82384,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -82351,7 +82399,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-400-63-D",
       "Изображение": null,
@@ -82397,7 +82445,10 @@
     },
     "id": 824,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -82436,7 +82487,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -82451,7 +82502,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-400-100-D",
       "Изображение": null,
@@ -82497,7 +82548,10 @@
     },
     "id": 825,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -82536,7 +82590,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -82551,7 +82605,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-450-40-D",
       "Изображение": null,
@@ -82597,7 +82651,10 @@
     },
     "id": 826,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -82636,7 +82693,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -82651,7 +82708,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-450-63-D",
       "Изображение": null,
@@ -82697,7 +82754,10 @@
     },
     "id": 827,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -82736,7 +82796,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -82751,7 +82811,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-450-100-D",
       "Изображение": null,
@@ -82797,7 +82857,10 @@
     },
     "id": 828,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -82836,7 +82899,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -82851,7 +82914,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-450-40-D",
       "Изображение": null,
@@ -82897,7 +82960,10 @@
     },
     "id": 829,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -82936,7 +83002,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -82951,7 +83017,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-450-63-D",
       "Изображение": null,
@@ -82997,7 +83063,10 @@
     },
     "id": 830,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -83036,7 +83105,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -83051,7 +83120,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "raw": {
       "Модель": "VL-450-100-D",
       "Изображение": null,
@@ -83097,7 +83166,10 @@
     },
     "id": 831,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_sheet": "Лебедки Sicor",

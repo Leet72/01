@@ -38769,7 +38769,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -38779,9 +38779,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_row": 947,
@@ -38817,7 +38820,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -38827,9 +38830,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_row": 948,
@@ -38865,7 +38871,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -38875,9 +38881,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_row": 949,
@@ -38913,7 +38922,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -38923,9 +38932,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_row": 950,
@@ -38961,7 +38973,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -38971,9 +38983,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_row": 951,
@@ -39009,7 +39024,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39019,9 +39034,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_row": 953,
@@ -39057,7 +39075,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39067,9 +39085,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_row": 954,
@@ -39105,7 +39126,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39115,9 +39136,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_row": 955,
@@ -39153,7 +39177,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39163,9 +39187,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_row": 956,
@@ -39201,7 +39228,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39211,9 +39238,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_row": 957,
@@ -39249,7 +39279,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39259,9 +39289,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_row": 958,
@@ -39297,7 +39330,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39307,9 +39340,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_row": 960,
@@ -39345,7 +39381,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39355,9 +39391,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_row": 961,
@@ -39393,7 +39432,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39403,9 +39442,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_row": 962,
@@ -39441,7 +39483,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39451,9 +39493,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_row": 963,
@@ -39489,7 +39534,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39499,9 +39544,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_row": 964,
@@ -39537,7 +39585,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39547,9 +39595,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_row": 965,
@@ -39585,7 +39636,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39595,9 +39646,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_row": 967,
@@ -39633,7 +39687,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39643,9 +39697,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_row": 968,
@@ -39681,7 +39738,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39691,9 +39748,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_row": 969,
@@ -39729,7 +39789,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39739,9 +39799,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 220
   },
   {
     "source_row": 970,
@@ -39777,7 +39840,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39787,9 +39850,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_row": 971,
@@ -39825,7 +39891,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39835,9 +39901,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_row": 972,
@@ -39873,7 +39942,7 @@
     "encoder": null,
     "encoder_brand": null,
     "brake_current_type": "постоянный ток",
-    "brake_voltage": "110 B DC",
+    "brake_voltage": "DC 110",
     "weight_kg": 110.0,
     "groove_pitch_mm": 12.0,
     "groove_open_angle": "γ=30°",
@@ -39883,9 +39952,12 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-25%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
+    "placement_type_source": "Правило 26.08.2026: все бочонки = MRL",
+    "brake_supply_voltage": "DC 110",
+    "vl_card_source_note": "Коррекция заказчика 24.09.2026: серия VL; мотор 220/380 В по току исполнения; тормоз DC 110 В; режим S5-25%.",
+    "motor_supply_voltage_v": 380
   },
   {
     "source_row": 2,
