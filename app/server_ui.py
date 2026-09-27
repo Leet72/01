@@ -134,7 +134,7 @@ def render_product(p):
       ('Основное',main),
       ('Привод',[('Мощность, кВт','power_kw'),('Напряжение питания (Rated voltage мотора), В','motor_supply_voltage_v'),('Ток, А','nominal_current_a'),('Номинальная частота вращения, об/мин','nominal_rpm'),('Номинальная частота, Гц','frequency_hz'),('Крутящий момент, Нм','torque_nm')]),
       ('КВШ и канаты',[('Диаметр КВШ, мм','sheave_diameter_mm'),('Форма ручья','groove_shape'),('Угол подреза','undercut_angle'),('Число канатов, шт. × Диаметр канатов, мм','rope_spec'),('Расстояние между канатами, мм','groove_pitch_mm')]),
-      ('Эксплуатация',[('Консольная нагрузка, кг','max_cantilever_load_kg'),('Высота подъёма, м','max_lift_height_m'),('Включений в час','starts_per_hour'),('Режим работы','duty_cycle'),('Масса, кг','weight_kg')]),
+      ('Эксплуатация',[('Консольная нагрузка, кг','max_cantilever_load_kg'),('Высота подъёма, м','max_lift_height_m'),('Включений в час','starts_per_hour'),('Режим работы','duty_cycle'),('Комплектация','configuration'),('Масса, кг','weight_kg')]),
       ('Тормоз',[('Напряжение тормоза, В','brake_voltage'),('Номинальный ток, А','brake_nominal_current_a')]),
     ]
     def value(key):

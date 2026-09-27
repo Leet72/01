@@ -16075,9 +16075,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 384,
@@ -16123,9 +16124,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 385,
@@ -16171,9 +16173,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 386,
@@ -16219,9 +16222,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 387,
@@ -16267,9 +16271,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 389,
@@ -16315,9 +16320,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 390,
@@ -16363,9 +16369,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 391,
@@ -16411,9 +16418,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 392,
@@ -16459,9 +16467,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 393,
@@ -16507,9 +16516,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 395,
@@ -16555,9 +16565,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 396,
@@ -16603,9 +16614,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 397,
@@ -16651,9 +16663,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 398,
@@ -16699,9 +16712,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 399,
@@ -16747,9 +16761,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 401,
@@ -16795,9 +16810,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 402,
@@ -16843,9 +16859,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 403,
@@ -16891,9 +16908,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 404,
@@ -16939,9 +16957,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 405,
@@ -16987,9 +17006,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 407,
@@ -17035,9 +17055,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 408,
@@ -17083,9 +17104,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 409,
@@ -17131,9 +17153,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 410,
@@ -17179,9 +17202,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 411,
@@ -17227,9 +17251,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 413,
@@ -17275,9 +17300,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 414,
@@ -17323,9 +17349,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 415,
@@ -17371,9 +17398,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 416,
@@ -17419,9 +17447,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 417,
@@ -17467,9 +17496,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 419,
@@ -17515,9 +17545,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 420,
@@ -17563,9 +17594,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 421,
@@ -17611,9 +17643,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 422,
@@ -17659,9 +17692,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 423,
@@ -17707,9 +17741,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 425,
@@ -17755,9 +17790,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 426,
@@ -17803,9 +17839,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 427,
@@ -17851,9 +17888,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 428,
@@ -17899,9 +17937,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 429,
@@ -17947,9 +17986,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 431,
@@ -17995,9 +18035,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 432,
@@ -18043,9 +18084,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 433,
@@ -18091,9 +18133,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 434,
@@ -18139,9 +18182,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 435,
@@ -18187,9 +18231,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 437,
@@ -18235,9 +18280,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 438,
@@ -18283,9 +18329,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 439,
@@ -18331,9 +18378,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 440,
@@ -18379,9 +18427,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 441,
@@ -18427,9 +18476,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 443,
@@ -18475,9 +18525,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 444,
@@ -18523,9 +18574,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 445,
@@ -18571,9 +18623,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 446,
@@ -18619,9 +18672,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 447,
@@ -18667,9 +18721,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 450,
@@ -18715,9 +18770,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 451,
@@ -18763,9 +18819,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 452,
@@ -18811,9 +18868,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 453,
@@ -18859,9 +18917,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 454,
@@ -18907,9 +18966,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 456,
@@ -18955,9 +19015,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 457,
@@ -19003,9 +19064,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 458,
@@ -19051,9 +19113,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 459,
@@ -19099,9 +19162,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 460,
@@ -19147,9 +19211,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 462,
@@ -19195,9 +19260,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 463,
@@ -19243,9 +19309,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 464,
@@ -19291,9 +19358,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 465,
@@ -19339,9 +19407,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 466,
@@ -19387,9 +19456,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_row": 468,
@@ -19435,9 +19505,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 469,
@@ -19483,9 +19554,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 470,
@@ -19531,9 +19603,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 471,
@@ -19579,9 +19652,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 472,
@@ -19627,9 +19701,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 474,
@@ -19675,9 +19750,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 475,
@@ -19723,9 +19799,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 476,
@@ -19771,9 +19848,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 477,
@@ -19819,9 +19897,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 478,
@@ -19867,9 +19946,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 480,
@@ -19915,9 +19995,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 481,
@@ -19963,9 +20044,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 482,
@@ -20011,9 +20093,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 483,
@@ -20059,9 +20142,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 484,
@@ -20107,9 +20191,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 486,
@@ -20155,9 +20240,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 487,
@@ -20203,9 +20289,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 488,
@@ -20251,9 +20338,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 489,
@@ -20299,9 +20387,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 490,
@@ -20347,9 +20436,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 492,
@@ -20395,9 +20485,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 493,
@@ -20443,9 +20534,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 494,
@@ -20491,9 +20583,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 495,
@@ -20539,9 +20632,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 496,
@@ -20587,9 +20681,10 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_row": 498,
@@ -20635,7 +20730,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -20683,7 +20778,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -20731,7 +20826,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -20779,7 +20874,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -20827,7 +20922,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -20875,7 +20970,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -20923,7 +21018,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -20971,7 +21066,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21019,7 +21114,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21067,7 +21162,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21115,7 +21210,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21163,7 +21258,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21211,7 +21306,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21259,7 +21354,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21307,7 +21402,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21355,7 +21450,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21403,7 +21498,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21451,7 +21546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21499,7 +21594,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21547,7 +21642,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21595,7 +21690,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21643,7 +21738,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21691,7 +21786,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21739,7 +21834,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21787,7 +21882,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21835,7 +21930,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21883,7 +21978,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21931,7 +22026,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -21979,7 +22074,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -22027,7 +22122,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -22075,7 +22170,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 28.08.2026: WJC-T = объёмная таблетка, MRL"
   },
@@ -22123,7 +22218,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22171,7 +22266,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22219,7 +22314,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22267,7 +22362,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22315,7 +22410,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22363,7 +22458,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22411,7 +22506,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22459,7 +22554,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22507,7 +22602,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22555,7 +22650,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22603,7 +22698,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22651,7 +22746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22699,7 +22794,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22747,7 +22842,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22795,7 +22890,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22843,7 +22938,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22891,7 +22986,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22939,7 +23034,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -22987,7 +23082,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23035,7 +23130,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23083,7 +23178,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23131,7 +23226,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23179,7 +23274,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23227,7 +23322,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23275,7 +23370,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23323,7 +23418,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23371,7 +23466,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23419,7 +23514,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23467,7 +23562,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23515,7 +23610,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23563,7 +23658,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23611,7 +23706,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23659,7 +23754,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23707,7 +23802,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23755,7 +23850,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23803,7 +23898,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23851,7 +23946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23899,7 +23994,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23947,7 +24042,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -23995,7 +24090,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24043,7 +24138,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24091,7 +24186,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24139,7 +24234,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24187,7 +24282,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24235,7 +24330,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24283,7 +24378,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24331,7 +24426,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24379,7 +24474,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24427,7 +24522,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24475,7 +24570,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24523,7 +24618,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24571,7 +24666,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24619,7 +24714,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24667,7 +24762,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24715,7 +24810,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24763,7 +24858,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24811,7 +24906,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24859,7 +24954,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24907,7 +25002,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -24955,7 +25050,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25003,7 +25098,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25051,7 +25146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25099,7 +25194,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25147,7 +25242,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25195,7 +25290,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25243,7 +25338,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25291,7 +25386,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25339,7 +25434,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25387,7 +25482,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25435,7 +25530,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25483,7 +25578,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25531,7 +25626,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25579,7 +25674,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25627,7 +25722,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25675,7 +25770,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25723,7 +25818,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25771,7 +25866,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25819,7 +25914,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25867,7 +25962,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25915,7 +26010,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -25963,7 +26058,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26011,7 +26106,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26059,7 +26154,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26107,7 +26202,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26155,7 +26250,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26203,7 +26298,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26251,7 +26346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26299,7 +26394,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26347,7 +26442,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26395,7 +26490,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26443,7 +26538,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26491,7 +26586,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26539,7 +26634,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26587,7 +26682,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26635,7 +26730,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26683,7 +26778,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26731,7 +26826,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26779,7 +26874,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26827,7 +26922,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26875,7 +26970,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26923,7 +27018,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -26971,7 +27066,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27019,7 +27114,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27067,7 +27162,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27115,7 +27210,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27163,7 +27258,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27211,7 +27306,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27259,7 +27354,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27307,7 +27402,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27355,7 +27450,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27403,7 +27498,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27451,7 +27546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27499,7 +27594,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27547,7 +27642,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27595,7 +27690,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27643,7 +27738,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27691,7 +27786,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27739,7 +27834,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27787,7 +27882,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27835,7 +27930,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27883,7 +27978,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27931,7 +28026,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -27979,7 +28074,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28027,7 +28122,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28075,7 +28170,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28123,7 +28218,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28171,7 +28266,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28219,7 +28314,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28267,7 +28362,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28315,7 +28410,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28363,7 +28458,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28411,7 +28506,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28459,7 +28554,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28507,7 +28602,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28555,7 +28650,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28603,7 +28698,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28651,7 +28746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28699,7 +28794,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28747,7 +28842,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28795,7 +28890,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28843,7 +28938,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28891,7 +28986,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28939,7 +29034,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -28987,7 +29082,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29035,7 +29130,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29083,7 +29178,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29131,7 +29226,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29179,7 +29274,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29227,7 +29322,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29275,7 +29370,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29323,7 +29418,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29371,7 +29466,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29419,7 +29514,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29467,7 +29562,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29515,7 +29610,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29563,7 +29658,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29611,7 +29706,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29659,7 +29754,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29707,7 +29802,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29755,7 +29850,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29803,7 +29898,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29851,7 +29946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29899,7 +29994,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29947,7 +30042,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -29995,7 +30090,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -30043,7 +30138,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -30091,7 +30186,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -30139,7 +30234,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -30187,7 +30282,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -30235,7 +30330,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -30283,7 +30378,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -30331,7 +30426,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
   },
@@ -30379,7 +30474,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -30427,7 +30522,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -30475,7 +30570,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -30523,7 +30618,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -30571,7 +30666,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -30619,7 +30714,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -30667,7 +30762,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -30715,7 +30810,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -30763,7 +30858,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -30811,7 +30906,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -30859,7 +30954,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -30907,7 +31002,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -30955,7 +31050,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31003,7 +31098,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31051,7 +31146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31099,7 +31194,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31147,7 +31242,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31195,7 +31290,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31243,7 +31338,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31291,7 +31386,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31339,7 +31434,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31387,7 +31482,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31435,7 +31530,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31483,7 +31578,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31531,7 +31626,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31579,7 +31674,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31627,7 +31722,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31675,7 +31770,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31723,7 +31818,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31771,7 +31866,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31819,7 +31914,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31867,7 +31962,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31915,7 +32010,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -31963,7 +32058,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32011,7 +32106,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32059,7 +32154,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32107,7 +32202,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32155,7 +32250,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32203,7 +32298,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32251,7 +32346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32299,7 +32394,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32347,7 +32442,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32395,7 +32490,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32443,7 +32538,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32491,7 +32586,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32539,7 +32634,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32587,7 +32682,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32635,7 +32730,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32683,7 +32778,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32731,7 +32826,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32779,7 +32874,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32827,7 +32922,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32875,7 +32970,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32923,7 +33018,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -32971,7 +33066,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -33019,7 +33114,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -33067,7 +33162,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -36715,7 +36810,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -36763,7 +36858,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -36811,7 +36906,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -36859,7 +36954,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -36907,7 +37002,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -36955,7 +37050,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37003,7 +37098,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37051,7 +37146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37099,7 +37194,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37147,7 +37242,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37195,7 +37290,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37243,7 +37338,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37291,7 +37386,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37339,7 +37434,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37387,7 +37482,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37435,7 +37530,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37483,7 +37578,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37531,7 +37626,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37579,7 +37674,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37627,7 +37722,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37675,7 +37770,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37723,7 +37818,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37771,7 +37866,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37819,7 +37914,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },
@@ -37867,7 +37962,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "placement_type": "Без машинного помещения",
     "placement_type_source": "Правило 26.08.2026: все бочонки = MRL"
   },

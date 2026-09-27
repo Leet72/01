@@ -347,7 +347,7 @@ async function submitInquiry(){
 
 async function showProduct(id){
  const x=await fetch('/api/products/'+id).then(r=>r.json());
- const labels={nominal_current_a:'Номинальный ток, А',nominal_rpm:'Номинальные обороты, об/мин',frequency_hz:'Частота, Гц',torque_nm:'Крутящий момент, Н·м',groove_pitch_mm:'Шаг канавок КВШ, мм',groove_open_angle:'Угол раскрытия канавки',handwheel:'Маховик',remote_release:'Дистанционное расцепление',inertia_kgm2:'Момент инерции, кг·м²',w1:'W1',w2:'W2',h2:'h2',d4:'d4',d5:'d5',winding_type:'Тип намотки',frame_supply:'Поставка с рамой',frame_code:'Код рамы',duty_cycle:'Duty cycle',gear_ratio:'Передаточное число',vfd_brand:'Бренд ЧП',encoder_brand:'Бренд энкодера'};
+ const labels={nominal_current_a:'Номинальный ток, А',nominal_rpm:'Номинальные обороты, об/мин',frequency_hz:'Частота, Гц',torque_nm:'Крутящий момент, Н·м',groove_pitch_mm:'Шаг канавок КВШ, мм',groove_open_angle:'Угол раскрытия канавки',handwheel:'Маховик',remote_release:'Дистанционное расцепление',inertia_kgm2:'Момент инерции, кг·м²',w1:'W1',w2:'W2',h2:'h2',d4:'d4',d5:'d5',winding_type:'Тип намотки',frame_supply:'Поставка с рамой',frame_code:'Код рамы',duty_cycle:'Режим работы',configuration:'Комплектация',gear_ratio:'Передаточное число',vfd_brand:'Бренд ЧП',encoder_brand:'Бренд энкодера'};
  const val=v=>v===true?'Да':v===false?'Нет':v==='on_request'?'По запросу':(v??'—');
  const tech=Object.entries(labels).map(([k,l])=>`<div class="detail-item"><small>${l}</small><b>${val(x[k])}</b></div>`).join('');
  const raw=Object.entries(x.raw||{}).filter(([,v])=>v!==null&&v!=='').map(([k,v])=>`<tr><td>${k}</td><td>${val(v)}</td></tr>`).join('');

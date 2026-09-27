@@ -33451,7 +33451,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-100(400)",
       "Изображение": null,
@@ -33497,7 +33497,8 @@
     },
     "id": 335,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -33551,7 +33552,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-150(400)",
       "Изображение": null,
@@ -33597,7 +33598,8 @@
     },
     "id": 336,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -33651,7 +33653,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-160(400)",
       "Изображение": null,
@@ -33697,7 +33699,8 @@
     },
     "id": 337,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -33751,7 +33754,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-175(400)",
       "Изображение": null,
@@ -33797,7 +33800,8 @@
     },
     "id": 338,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -33851,7 +33855,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-200(400)",
       "Изображение": null,
@@ -33897,7 +33901,8 @@
     },
     "id": 339,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -33951,7 +33956,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-320-100(400)",
       "Изображение": null,
@@ -33997,7 +34002,8 @@
     },
     "id": 340,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -34051,7 +34057,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-320-150(400)",
       "Изображение": null,
@@ -34097,7 +34103,8 @@
     },
     "id": 341,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -34151,7 +34158,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-320-160(400)",
       "Изображение": null,
@@ -34197,7 +34204,8 @@
     },
     "id": 342,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -34251,7 +34259,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-320-175(400)",
       "Изображение": null,
@@ -34297,7 +34305,8 @@
     },
     "id": 343,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -34351,7 +34360,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-320-200(400)",
       "Изображение": null,
@@ -34397,7 +34406,8 @@
     },
     "id": 344,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -34451,7 +34461,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-400-100(400)",
       "Изображение": null,
@@ -34497,7 +34507,8 @@
     },
     "id": 345,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -34551,7 +34562,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-400-150(400)",
       "Изображение": null,
@@ -34597,7 +34608,8 @@
     },
     "id": 346,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -34651,7 +34663,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-400-160(400)",
       "Изображение": null,
@@ -34697,7 +34709,8 @@
     },
     "id": 347,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -34751,7 +34764,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-400-175(400)",
       "Изображение": null,
@@ -34797,7 +34810,8 @@
     },
     "id": 348,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -34851,7 +34865,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-400-200(400)",
       "Изображение": null,
@@ -34897,7 +34911,8 @@
     },
     "id": 349,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -34951,7 +34966,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-450-100(400)",
       "Изображение": null,
@@ -34997,7 +35012,8 @@
     },
     "id": 350,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -35051,7 +35067,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-450-150(400)",
       "Изображение": null,
@@ -35097,7 +35113,8 @@
     },
     "id": 351,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -35151,7 +35168,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-450-160(400)",
       "Изображение": null,
@@ -35197,7 +35214,8 @@
     },
     "id": 352,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -35251,7 +35269,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-450-175(400)",
       "Изображение": null,
@@ -35297,7 +35315,8 @@
     },
     "id": 353,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -35351,7 +35370,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-450-200(400)",
       "Изображение": null,
@@ -35397,7 +35416,8 @@
     },
     "id": 354,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -35451,7 +35471,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-600-100(400)",
       "Изображение": null,
@@ -35497,7 +35517,8 @@
     },
     "id": 355,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -35551,7 +35572,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-600-150(400)",
       "Изображение": null,
@@ -35597,7 +35618,8 @@
     },
     "id": 356,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -35651,7 +35673,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-600-160(400)",
       "Изображение": null,
@@ -35697,7 +35719,8 @@
     },
     "id": 357,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -35751,7 +35774,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-600-175(400)",
       "Изображение": null,
@@ -35797,7 +35820,8 @@
     },
     "id": 358,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -35851,7 +35875,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-600-200(400)",
       "Изображение": null,
@@ -35897,7 +35921,8 @@
     },
     "id": 359,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -35951,7 +35976,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-630-100(400)",
       "Изображение": null,
@@ -35997,7 +36022,8 @@
     },
     "id": 360,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -36051,7 +36077,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-630-150(400)",
       "Изображение": null,
@@ -36097,7 +36123,8 @@
     },
     "id": 361,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -36151,7 +36178,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-630-160(400)",
       "Изображение": null,
@@ -36197,7 +36224,8 @@
     },
     "id": 362,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -36251,7 +36279,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-630-175(400)",
       "Изображение": null,
@@ -36297,7 +36325,8 @@
     },
     "id": 363,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -36351,7 +36380,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-630-200(400)",
       "Изображение": null,
@@ -36397,7 +36426,8 @@
     },
     "id": 364,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -36451,7 +36481,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-100(400)",
       "Изображение": null,
@@ -36497,7 +36527,8 @@
     },
     "id": 365,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -36551,7 +36582,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-150(400)",
       "Изображение": null,
@@ -36597,7 +36628,8 @@
     },
     "id": 366,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -36651,7 +36683,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-160(400)",
       "Изображение": null,
@@ -36697,7 +36729,8 @@
     },
     "id": 367,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -36751,7 +36784,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-175(400)",
       "Изображение": null,
@@ -36797,7 +36830,8 @@
     },
     "id": 368,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -36851,7 +36885,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-200(400)",
       "Изображение": null,
@@ -36897,7 +36931,8 @@
     },
     "id": 369,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -36951,7 +36986,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-100(400)",
       "Изображение": null,
@@ -36997,7 +37032,8 @@
     },
     "id": 370,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -37051,7 +37087,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-150(400)",
       "Изображение": null,
@@ -37097,7 +37133,8 @@
     },
     "id": 371,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -37151,7 +37188,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-160(400)",
       "Изображение": null,
@@ -37197,7 +37234,8 @@
     },
     "id": 372,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -37251,7 +37289,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-175(400)",
       "Изображение": null,
@@ -37297,7 +37335,8 @@
     },
     "id": 373,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -37351,7 +37390,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-200(400)",
       "Изображение": null,
@@ -37397,7 +37436,8 @@
     },
     "id": 374,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -37451,7 +37491,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-320-100(400)",
       "Изображение": null,
@@ -37497,7 +37537,8 @@
     },
     "id": 375,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -37551,7 +37592,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-320-150(400)",
       "Изображение": null,
@@ -37597,7 +37638,8 @@
     },
     "id": 376,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -37651,7 +37693,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-320-160(400)",
       "Изображение": null,
@@ -37697,7 +37739,8 @@
     },
     "id": 377,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -37751,7 +37794,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-320-175(400)",
       "Изображение": null,
@@ -37797,7 +37840,8 @@
     },
     "id": 378,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -37851,7 +37895,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-320-200(400)",
       "Изображение": null,
@@ -37897,7 +37941,8 @@
     },
     "id": 379,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -37951,7 +37996,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-400-100(400)",
       "Изображение": null,
@@ -37997,7 +38042,8 @@
     },
     "id": 380,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -38051,7 +38097,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-400-150(400)",
       "Изображение": null,
@@ -38097,7 +38143,8 @@
     },
     "id": 381,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -38151,7 +38198,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-400-160(400)",
       "Изображение": null,
@@ -38197,7 +38244,8 @@
     },
     "id": 382,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -38251,7 +38299,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-400-175(400)",
       "Изображение": null,
@@ -38297,7 +38345,8 @@
     },
     "id": 383,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -38351,7 +38400,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-400-200(400)",
       "Изображение": null,
@@ -38397,7 +38446,8 @@
     },
     "id": 384,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -38451,7 +38501,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-450-100(400)",
       "Изображение": null,
@@ -38497,7 +38547,8 @@
     },
     "id": 385,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -38551,7 +38602,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-450-150(400)",
       "Изображение": null,
@@ -38597,7 +38648,8 @@
     },
     "id": 386,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -38651,7 +38703,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-450-160(400)",
       "Изображение": null,
@@ -38697,7 +38749,8 @@
     },
     "id": 387,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -38751,7 +38804,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-450-175(400)",
       "Изображение": null,
@@ -38797,7 +38850,8 @@
     },
     "id": 388,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -38851,7 +38905,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-450-200(400)",
       "Изображение": null,
@@ -38897,7 +38951,8 @@
     },
     "id": 389,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -38951,7 +39006,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-600-100(400)",
       "Изображение": null,
@@ -38997,7 +39052,8 @@
     },
     "id": 390,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -39051,7 +39107,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-600-150(400)",
       "Изображение": null,
@@ -39097,7 +39153,8 @@
     },
     "id": 391,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -39151,7 +39208,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-600-160(400)",
       "Изображение": null,
@@ -39197,7 +39254,8 @@
     },
     "id": 392,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -39251,7 +39309,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-600-175(400)",
       "Изображение": null,
@@ -39297,7 +39355,8 @@
     },
     "id": 393,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -39351,7 +39410,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-600-200(400)",
       "Изображение": null,
@@ -39397,7 +39456,8 @@
     },
     "id": 394,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -39451,7 +39511,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-630-100(400)",
       "Изображение": null,
@@ -39497,7 +39557,8 @@
     },
     "id": 395,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -39551,7 +39612,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-630-150(400)",
       "Изображение": null,
@@ -39597,7 +39658,8 @@
     },
     "id": 396,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -39651,7 +39713,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-630-160(400)",
       "Изображение": null,
@@ -39697,7 +39759,8 @@
     },
     "id": 397,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -39751,7 +39814,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-630-175(400)",
       "Изображение": null,
@@ -39797,7 +39860,8 @@
     },
     "id": 398,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -39851,7 +39915,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-630-200(400)",
       "Изображение": null,
@@ -39897,7 +39961,8 @@
     },
     "id": 399,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -39951,7 +40016,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-100(400)",
       "Изображение": null,
@@ -39997,7 +40062,8 @@
     },
     "id": 400,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -40051,7 +40117,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-150(400)",
       "Изображение": null,
@@ -40097,7 +40163,8 @@
     },
     "id": 401,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -40151,7 +40218,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-160(400)",
       "Изображение": null,
@@ -40197,7 +40264,8 @@
     },
     "id": 402,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -40251,7 +40319,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-175(400)",
       "Изображение": null,
@@ -40297,7 +40365,8 @@
     },
     "id": 403,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -40351,7 +40420,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-200(400)",
       "Изображение": null,
@@ -40397,7 +40466,8 @@
     },
     "id": 404,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Идет в комплекте с креплениями на направляющие и передним энкодером"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -40451,7 +40521,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-100(400)",
       "Изображение": null,
@@ -40497,7 +40567,8 @@
     },
     "id": 405,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -40551,7 +40622,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-150(400)",
       "Изображение": null,
@@ -40597,7 +40668,8 @@
     },
     "id": 406,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -40651,7 +40723,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-160(400)",
       "Изображение": null,
@@ -40697,7 +40769,8 @@
     },
     "id": 407,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -40751,7 +40824,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-175(400)",
       "Изображение": null,
@@ -40797,7 +40870,8 @@
     },
     "id": 408,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -40851,7 +40925,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-272-200(400)",
       "Изображение": null,
@@ -40897,7 +40971,8 @@
     },
     "id": 409,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -40951,7 +41026,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-340-100(400)",
       "Изображение": null,
@@ -40997,7 +41072,8 @@
     },
     "id": 410,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -41051,7 +41127,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-340-150(400)",
       "Изображение": null,
@@ -41097,7 +41173,8 @@
     },
     "id": 411,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -41151,7 +41228,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-340-160(400)",
       "Изображение": null,
@@ -41197,7 +41274,8 @@
     },
     "id": 412,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -41251,7 +41329,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-340-175(400)",
       "Изображение": null,
@@ -41297,7 +41375,8 @@
     },
     "id": 413,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -41351,7 +41430,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-340-200(400)",
       "Изображение": null,
@@ -41397,7 +41476,8 @@
     },
     "id": 414,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -41451,7 +41531,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-408-100(400)",
       "Изображение": null,
@@ -41497,7 +41577,8 @@
     },
     "id": 415,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -41551,7 +41632,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-408-150(400)",
       "Изображение": null,
@@ -41597,7 +41678,8 @@
     },
     "id": 416,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -41651,7 +41733,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-408-160(400)",
       "Изображение": null,
@@ -41697,7 +41779,8 @@
     },
     "id": 417,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -41751,7 +41834,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-408-175(400)",
       "Изображение": null,
@@ -41797,7 +41880,8 @@
     },
     "id": 418,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -41851,7 +41935,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-408-200(400)",
       "Изображение": null,
@@ -41897,7 +41981,8 @@
     },
     "id": 419,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -41951,7 +42036,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-544-100(400)",
       "Изображение": null,
@@ -41997,7 +42082,8 @@
     },
     "id": 420,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -42051,7 +42137,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-544-150(400)",
       "Изображение": null,
@@ -42097,7 +42183,8 @@
     },
     "id": 421,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -42151,7 +42238,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-544-160(400)",
       "Изображение": null,
@@ -42197,7 +42284,8 @@
     },
     "id": 422,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -42251,7 +42339,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-544-175(400)",
       "Изображение": null,
@@ -42297,7 +42385,8 @@
     },
     "id": 423,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -42351,7 +42440,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-544-200(400)",
       "Изображение": null,
@@ -42397,7 +42486,8 @@
     },
     "id": 424,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -42451,7 +42541,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-100(400)",
       "Изображение": null,
@@ -42497,7 +42587,8 @@
     },
     "id": 425,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -42551,7 +42642,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-150(400)",
       "Изображение": null,
@@ -42597,7 +42688,8 @@
     },
     "id": 426,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -42651,7 +42743,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-160(400)",
       "Изображение": null,
@@ -42697,7 +42789,8 @@
     },
     "id": 427,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -42751,7 +42844,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-175(400)",
       "Изображение": null,
@@ -42797,7 +42890,8 @@
     },
     "id": 428,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -42851,7 +42945,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 06-680-200(400)",
       "Изображение": null,
@@ -42897,7 +42991,8 @@
     },
     "id": 429,
     "placement_type": "Без машинного помещения",
-    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL"
+    "placement_type_source": "Правило 26.08.2026: плоская таблетка = MRL",
+    "configuration": "Без дополнительной комплектации"
   },
   {
     "source_sheet": "Безредукторная лебедка Nidec",
@@ -42951,7 +43046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-630-100-T",
       "Изображение": null,
@@ -43051,7 +43146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-630-150-T",
       "Изображение": null,
@@ -43151,7 +43246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-630-160-T",
       "Изображение": null,
@@ -43251,7 +43346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-630-175-T",
       "Изображение": null,
@@ -43351,7 +43446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-800-100-T",
       "Изображение": null,
@@ -43451,7 +43546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-800-150-T",
       "Изображение": null,
@@ -43551,7 +43646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-800-160-T",
       "Изображение": null,
@@ -43651,7 +43746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-800-175-T",
       "Изображение": null,
@@ -43751,7 +43846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1000-100-T",
       "Изображение": null,
@@ -43851,7 +43946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1000-150-T",
       "Изображение": null,
@@ -43951,7 +44046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1000-160-T",
       "Изображение": null,
@@ -44051,7 +44146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1000-175-T",
       "Изображение": null,
@@ -44151,7 +44246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1050-100-T",
       "Изображение": null,
@@ -44251,7 +44346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1050-150-T",
       "Изображение": null,
@@ -44351,7 +44446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1050-160-T",
       "Изображение": null,
@@ -44451,7 +44546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1050-175-T",
       "Изображение": null,
@@ -44551,7 +44646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-680-100-T",
       "Изображение": null,
@@ -44651,7 +44746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-680-125-T",
       "Изображение": null,
@@ -44751,7 +44846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-680-150-T",
       "Изображение": null,
@@ -44851,7 +44946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-680-160-T",
       "Изображение": null,
@@ -44951,7 +45046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-680-175-T",
       "Изображение": null,
@@ -45051,7 +45146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-884-100-T",
       "Изображение": null,
@@ -45151,7 +45246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-884-125-T",
       "Изображение": null,
@@ -45251,7 +45346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-884-150-T",
       "Изображение": null,
@@ -45351,7 +45446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-884-160-T",
       "Изображение": null,
@@ -45451,7 +45546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-884-175-T",
       "Изображение": null,
@@ -45551,7 +45646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1088-100-T",
       "Изображение": null,
@@ -45651,7 +45746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1088-125-T",
       "Изображение": null,
@@ -45751,7 +45846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1088-150-T",
       "Изображение": null,
@@ -45851,7 +45946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1088-160-T",
       "Изображение": null,
@@ -45951,7 +46046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WJC-1088-175-T",
       "Изображение": null,
@@ -46051,7 +46146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-630-100",
       "Изображение": null,
@@ -46151,7 +46246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-630-150",
       "Изображение": null,
@@ -46251,7 +46346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-630-160",
       "Изображение": null,
@@ -46351,7 +46446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-630-175",
       "Изображение": null,
@@ -46451,7 +46546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-630-200",
       "Изображение": null,
@@ -46551,7 +46646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-630-250",
       "Изображение": null,
@@ -46651,7 +46746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-800-100",
       "Изображение": null,
@@ -46751,7 +46846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-800-150",
       "Изображение": null,
@@ -46851,7 +46946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-800-160",
       "Изображение": null,
@@ -46951,7 +47046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-800-175",
       "Изображение": null,
@@ -47051,7 +47146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-800-200",
       "Изображение": null,
@@ -47151,7 +47246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-800-250",
       "Изображение": null,
@@ -47251,7 +47346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1000-100",
       "Изображение": null,
@@ -47351,7 +47446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1000-150",
       "Изображение": null,
@@ -47451,7 +47546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1000-160",
       "Изображение": null,
@@ -47551,7 +47646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1000-175",
       "Изображение": null,
@@ -47651,7 +47746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1000-200",
       "Изображение": null,
@@ -47751,7 +47846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1000-250",
       "Изображение": null,
@@ -47851,7 +47946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1050-100",
       "Изображение": null,
@@ -47951,7 +48046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1050-150",
       "Изображение": null,
@@ -48051,7 +48146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1050-160",
       "Изображение": null,
@@ -48151,7 +48246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1050-175",
       "Изображение": null,
@@ -48251,7 +48346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1050-200",
       "Изображение": null,
@@ -48351,7 +48446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1050-250",
       "Изображение": null,
@@ -48451,7 +48546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-100",
       "Изображение": null,
@@ -48551,7 +48646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-150",
       "Изображение": null,
@@ -48651,7 +48746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-160",
       "Изображение": null,
@@ -48751,7 +48846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-175",
       "Изображение": null,
@@ -48851,7 +48946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-630-100",
       "Изображение": null,
@@ -48951,7 +49046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-630-150",
       "Изображение": null,
@@ -49051,7 +49146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-630-160",
       "Изображение": null,
@@ -49151,7 +49246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-630-175",
       "Изображение": null,
@@ -49251,7 +49346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-630-200",
       "Изображение": null,
@@ -49351,7 +49446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-630-250",
       "Изображение": null,
@@ -49451,7 +49546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-800-100",
       "Изображение": null,
@@ -49551,7 +49646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-800-150",
       "Изображение": null,
@@ -49651,7 +49746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-800-160",
       "Изображение": null,
@@ -49751,7 +49846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-800-175",
       "Изображение": null,
@@ -49851,7 +49946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-800-200",
       "Изображение": null,
@@ -49951,7 +50046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-800-250",
       "Изображение": null,
@@ -50051,7 +50146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1000-100",
       "Изображение": null,
@@ -50151,7 +50246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1000-150",
       "Изображение": null,
@@ -50251,7 +50346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1000-160",
       "Изображение": null,
@@ -50351,7 +50446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1000-175",
       "Изображение": null,
@@ -50451,7 +50546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1000-200",
       "Изображение": null,
@@ -50551,7 +50646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1000-250",
       "Изображение": null,
@@ -50651,7 +50746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1050-100",
       "Изображение": null,
@@ -50751,7 +50846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1050-150",
       "Изображение": null,
@@ -50851,7 +50946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1050-160",
       "Изображение": null,
@@ -50951,7 +51046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1050-175",
       "Изображение": null,
@@ -51051,7 +51146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1050-200",
       "Изображение": null,
@@ -51151,7 +51246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1050-250",
       "Изображение": null,
@@ -51251,7 +51346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-100",
       "Изображение": null,
@@ -51351,7 +51446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-150",
       "Изображение": null,
@@ -51451,7 +51546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-160",
       "Изображение": null,
@@ -51551,7 +51646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-175",
       "Изображение": null,
@@ -51651,7 +51746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-680-100",
       "Изображение": null,
@@ -51751,7 +51846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-680-150",
       "Изображение": null,
@@ -51851,7 +51946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-680-160",
       "Изображение": null,
@@ -51951,7 +52046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-680-175",
       "Изображение": null,
@@ -52051,7 +52146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-680-200",
       "Изображение": null,
@@ -52151,7 +52246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-680-250",
       "Изображение": null,
@@ -52251,7 +52346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-884-100",
       "Изображение": null,
@@ -52351,7 +52446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-884-150",
       "Изображение": null,
@@ -52451,7 +52546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-884-160",
       "Изображение": null,
@@ -52551,7 +52646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-884-175",
       "Изображение": null,
@@ -52651,7 +52746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-884-200",
       "Изображение": null,
@@ -52751,7 +52846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-884-250",
       "Изображение": null,
@@ -52851,7 +52946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1088-100",
       "Изображение": null,
@@ -52951,7 +53046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1088-150",
       "Изображение": null,
@@ -53051,7 +53146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1088-160",
       "Изображение": null,
@@ -53151,7 +53246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1088-175",
       "Изображение": null,
@@ -53251,7 +53346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1088-200",
       "Изображение": null,
@@ -53351,7 +53446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1088-250",
       "Изображение": null,
@@ -53451,7 +53546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-100",
       "Изображение": null,
@@ -53551,7 +53646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-150",
       "Изображение": null,
@@ -53651,7 +53746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-160",
       "Изображение": null,
@@ -53751,7 +53846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-175",
       "Изображение": null,
@@ -53851,7 +53946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-680-100",
       "Изображение": null,
@@ -53951,7 +54046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-680-150",
       "Изображение": null,
@@ -54051,7 +54146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-680-160",
       "Изображение": null,
@@ -54151,7 +54246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-680-175",
       "Изображение": null,
@@ -54251,7 +54346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-680-200",
       "Изображение": null,
@@ -54351,7 +54446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-680-250",
       "Изображение": null,
@@ -54451,7 +54546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-884-100",
       "Изображение": null,
@@ -54551,7 +54646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-884-150",
       "Изображение": null,
@@ -54651,7 +54746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-884-160",
       "Изображение": null,
@@ -54751,7 +54846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-884-175",
       "Изображение": null,
@@ -54851,7 +54946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-884-200",
       "Изображение": null,
@@ -54951,7 +55046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-884-250",
       "Изображение": null,
@@ -55051,7 +55146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1088-100",
       "Изображение": null,
@@ -55151,7 +55246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1088-150",
       "Изображение": null,
@@ -55251,7 +55346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1088-160",
       "Изображение": null,
@@ -55351,7 +55446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1088-175",
       "Изображение": null,
@@ -55451,7 +55546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1088-200",
       "Изображение": null,
@@ -55551,7 +55646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1088-250",
       "Изображение": null,
@@ -55651,7 +55746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-100",
       "Изображение": null,
@@ -55751,7 +55846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-150",
       "Изображение": null,
@@ -55851,7 +55946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-160",
       "Изображение": null,
@@ -55951,7 +56046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 10-1150-175",
       "Изображение": null,
@@ -56051,7 +56146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1350-100",
       "Изображение": null,
@@ -56151,7 +56246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1350-150",
       "Изображение": null,
@@ -56251,7 +56346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1350-160",
       "Изображение": null,
@@ -56351,7 +56446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1350-175",
       "Изображение": null,
@@ -56451,7 +56546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1350-200",
       "Изображение": null,
@@ -56551,7 +56646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1350-250",
       "Изображение": null,
@@ -56651,7 +56746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1600-100",
       "Изображение": null,
@@ -56751,7 +56846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1600-150",
       "Изображение": null,
@@ -56851,7 +56946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1600-160",
       "Изображение": null,
@@ -56951,7 +57046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1600-175",
       "Изображение": null,
@@ -57051,7 +57146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1600-200",
       "Изображение": null,
@@ -57151,7 +57246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1600-250",
       "Изображение": null,
@@ -57251,7 +57346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1800-100",
       "Изображение": null,
@@ -57351,7 +57446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1800-150",
       "Изображение": null,
@@ -57451,7 +57546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1800-160",
       "Изображение": null,
@@ -57551,7 +57646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1800-175",
       "Изображение": null,
@@ -57651,7 +57746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1800-200",
       "Изображение": null,
@@ -57751,7 +57846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1800-250",
       "Изображение": null,
@@ -57851,7 +57946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-100",
       "Изображение": null,
@@ -57951,7 +58046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-150",
       "Изображение": null,
@@ -58051,7 +58146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-160",
       "Изображение": null,
@@ -58151,7 +58246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-175",
       "Изображение": null,
@@ -58251,7 +58346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-200",
       "Изображение": null,
@@ -58351,7 +58446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-250",
       "Изображение": null,
@@ -58451,7 +58546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1350-100",
       "Изображение": null,
@@ -58551,7 +58646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1350-150",
       "Изображение": null,
@@ -58651,7 +58746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1350-160",
       "Изображение": null,
@@ -58751,7 +58846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1350-175",
       "Изображение": null,
@@ -58851,7 +58946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1350-200",
       "Изображение": null,
@@ -58951,7 +59046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1350-250",
       "Изображение": null,
@@ -59051,7 +59146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1600-100",
       "Изображение": null,
@@ -59151,7 +59246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1600-150",
       "Изображение": null,
@@ -59251,7 +59346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1600-160",
       "Изображение": null,
@@ -59351,7 +59446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1600-175",
       "Изображение": null,
@@ -59451,7 +59546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1600-200",
       "Изображение": null,
@@ -59551,7 +59646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1600-250",
       "Изображение": null,
@@ -59651,7 +59746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1800-100",
       "Изображение": null,
@@ -59751,7 +59846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1800-150",
       "Изображение": null,
@@ -59851,7 +59946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1800-160",
       "Изображение": null,
@@ -59951,7 +60046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1800-175",
       "Изображение": null,
@@ -60051,7 +60146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1800-200",
       "Изображение": null,
@@ -60151,7 +60246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1800-250",
       "Изображение": null,
@@ -60251,7 +60346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-100",
       "Изображение": null,
@@ -60351,7 +60446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-150",
       "Изображение": null,
@@ -60451,7 +60546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-160",
       "Изображение": null,
@@ -60551,7 +60646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-175",
       "Изображение": null,
@@ -60651,7 +60746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-200",
       "Изображение": null,
@@ -60751,7 +60846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-250",
       "Изображение": null,
@@ -60851,7 +60946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1360-100",
       "Изображение": null,
@@ -60951,7 +61046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1360-150",
       "Изображение": null,
@@ -61051,7 +61146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1360-160",
       "Изображение": null,
@@ -61151,7 +61246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1360-175",
       "Изображение": null,
@@ -61251,7 +61346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1360-200",
       "Изображение": null,
@@ -61351,7 +61446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1360-250",
       "Изображение": null,
@@ -61451,7 +61546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1632-100",
       "Изображение": null,
@@ -61551,7 +61646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1632-150",
       "Изображение": null,
@@ -61651,7 +61746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1632-160",
       "Изображение": null,
@@ -61751,7 +61846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1632-175",
       "Изображение": null,
@@ -61851,7 +61946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1632-200",
       "Изображение": null,
@@ -61951,7 +62046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-1632-250",
       "Изображение": null,
@@ -62051,7 +62146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20- 1768-100",
       "Изображение": null,
@@ -62151,7 +62246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20- 1768-150",
       "Изображение": null,
@@ -62251,7 +62346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20- 1768-160",
       "Изображение": null,
@@ -62351,7 +62446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20- 1768-175",
       "Изображение": null,
@@ -62451,7 +62546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20- 1768-200",
       "Изображение": null,
@@ -62551,7 +62646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20- 1768-250",
       "Изображение": null,
@@ -62651,7 +62746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-100",
       "Изображение": null,
@@ -62751,7 +62846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-150",
       "Изображение": null,
@@ -62851,7 +62946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-160",
       "Изображение": null,
@@ -62951,7 +63046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-175",
       "Изображение": null,
@@ -63051,7 +63146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-200",
       "Изображение": null,
@@ -63151,7 +63246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WE 20-2000-250",
       "Изображение": null,
@@ -63251,7 +63346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-450-100-D",
       "Изображение": null,
@@ -63351,7 +63446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-450-150-D",
       "Изображение": null,
@@ -63451,7 +63546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-450-160-D",
       "Изображение": null,
@@ -63551,7 +63646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-450-175-D",
       "Изображение": null,
@@ -63651,7 +63746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-450-200-D",
       "Изображение": null,
@@ -63751,7 +63846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-630-100-D",
       "Изображение": null,
@@ -63851,7 +63946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-630-150-D",
       "Изображение": null,
@@ -63951,7 +64046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-630-160-D",
       "Изображение": null,
@@ -64051,7 +64146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-630-175-D",
       "Изображение": null,
@@ -64151,7 +64246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-630-200-D",
       "Изображение": null,
@@ -64251,7 +64346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-800-100-D",
       "Изображение": null,
@@ -64351,7 +64446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-800-150-D",
       "Изображение": null,
@@ -64451,7 +64546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-800-160-D",
       "Изображение": null,
@@ -64551,7 +64646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-800-175-D",
       "Изображение": null,
@@ -64651,7 +64746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-800-200-D",
       "Изображение": null,
@@ -64751,7 +64846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1000-100-D",
       "Изображение": null,
@@ -64851,7 +64946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1000-150-D",
       "Изображение": null,
@@ -64951,7 +65046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1000-160-D",
       "Изображение": null,
@@ -65051,7 +65146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1000-175-D",
       "Изображение": null,
@@ -65151,7 +65246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1000-200-D",
       "Изображение": null,
@@ -65251,7 +65346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-408-66-D",
       "Изображение": null,
@@ -65351,7 +65446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-408-100-D",
       "Изображение": null,
@@ -65451,7 +65546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-408-125-D",
       "Изображение": null,
@@ -65551,7 +65646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-408-150-D",
       "Изображение": null,
@@ -65651,7 +65746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-408-160-D",
       "Изображение": null,
@@ -65751,7 +65846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-408-175-D",
       "Изображение": null,
@@ -65851,7 +65946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-408-200-D",
       "Изображение": null,
@@ -65951,7 +66046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-544-100-D",
       "Изображение": null,
@@ -66051,7 +66146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-544-125-D",
       "Изображение": null,
@@ -66151,7 +66246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-544-150-D",
       "Изображение": null,
@@ -66251,7 +66346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-544-160-D",
       "Изображение": null,
@@ -66351,7 +66446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-544-175-D",
       "Изображение": null,
@@ -66451,7 +66546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-544-200-D",
       "Изображение": null,
@@ -66551,7 +66646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-680-100-D",
       "Изображение": null,
@@ -66651,7 +66746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-680-125-D",
       "Изображение": null,
@@ -66751,7 +66846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-680-150-D",
       "Изображение": null,
@@ -66851,7 +66946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-680-160-D",
       "Изображение": null,
@@ -66951,7 +67046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-680-175-D",
       "Изображение": null,
@@ -67051,7 +67146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-680-200-D",
       "Изображение": null,
@@ -67151,7 +67246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-884-100-D",
       "Изображение": null,
@@ -67251,7 +67346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-884-125-D",
       "Изображение": null,
@@ -67351,7 +67446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-884-150-D",
       "Изображение": null,
@@ -67451,7 +67546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-884-160-D",
       "Изображение": null,
@@ -67551,7 +67646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-884-175-D",
       "Изображение": null,
@@ -67651,7 +67746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-884-200-D",
       "Изображение": null,
@@ -67751,7 +67846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1020-100-D",
       "Изображение": null,
@@ -67851,7 +67946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1020-125-D",
       "Изображение": null,
@@ -67951,7 +68046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1020-150-D",
       "Изображение": null,
@@ -68051,7 +68146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1020-160-D",
       "Изображение": null,
@@ -68151,7 +68246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1020-175-D",
       "Изображение": null,
@@ -68251,7 +68346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1020-200-D",
       "Изображение": null,
@@ -68351,7 +68446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1088-100-D",
       "Изображение": null,
@@ -68451,7 +68546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1088-125-D",
       "Изображение": null,
@@ -68551,7 +68646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1088-150-D",
       "Изображение": null,
@@ -68651,7 +68746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1088-160-D",
       "Изображение": null,
@@ -68751,7 +68846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1088-175-D",
       "Изображение": null,
@@ -68851,7 +68946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1088-200-D",
       "Изображение": null,
@@ -76451,7 +76546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1150-100-D",
       "Изображение": null,
@@ -76551,7 +76646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1150-150-D",
       "Изображение": null,
@@ -76651,7 +76746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1150-160-D",
       "Изображение": null,
@@ -76751,7 +76846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1150-175-D",
       "Изображение": null,
@@ -76851,7 +76946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1150-200-D",
       "Изображение": null,
@@ -76951,7 +77046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1250-100-D",
       "Изображение": null,
@@ -77051,7 +77146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1250-150-D",
       "Изображение": null,
@@ -77151,7 +77246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1250-160-D",
       "Изображение": null,
@@ -77251,7 +77346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1250-175-D",
       "Изображение": null,
@@ -77351,7 +77446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1250-200-D",
       "Изображение": null,
@@ -77451,7 +77546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1350-100-D",
       "Изображение": null,
@@ -77551,7 +77646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1350-150-D",
       "Изображение": null,
@@ -77651,7 +77746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1350-160-D",
       "Изображение": null,
@@ -77751,7 +77846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1350-175-D",
       "Изображение": null,
@@ -77851,7 +77946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1350-200-D",
       "Изображение": null,
@@ -77951,7 +78046,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1600-100-D",
       "Изображение": null,
@@ -78051,7 +78146,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1600-150-D",
       "Изображение": null,
@@ -78151,7 +78246,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1600-160-D",
       "Изображение": null,
@@ -78251,7 +78346,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1600-175-D",
       "Изображение": null,
@@ -78351,7 +78446,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-1600-200-D",
       "Изображение": null,
@@ -78451,7 +78546,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-2000-100-D",
       "Изображение": null,
@@ -78551,7 +78646,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-2000-150-D",
       "Изображение": null,
@@ -78651,7 +78746,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-2000-160-D",
       "Изображение": null,
@@ -78751,7 +78846,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-2000-175-D",
       "Изображение": null,
@@ -78851,7 +78946,7 @@
     "winding_type": "одиночная",
     "frame_supply": null,
     "frame_code": null,
-    "duty_cycle": null,
+    "duty_cycle": "S5-40%",
     "raw": {
       "Модель": "WR-2000-200-D",
       "Изображение": null,

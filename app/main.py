@@ -268,7 +268,7 @@ def bootstrap_legacy_media() -> int:
 MEDIA_BOOTSTRAPPED = bootstrap_legacy_media()
 refresh_media()
 
-app = FastAPI(title="Liftorg B2B Engineering Catalog", version="4.5.1")
+app = FastAPI(title="Liftorg B2B Engineering Catalog", version="4.5.2")
 app.add_middleware(GZipMiddleware, minimum_size=800)
 app.mount("/static", StaticFiles(directory=ROOT / "app" / "static"), name="static")
 app.mount("/react-assets", StaticFiles(directory=ROOT / "app" / "react_dist"), name="react-assets")
@@ -1892,10 +1892,10 @@ def health():
     try:
         with db_conn() as con:
             count=con.execute("SELECT COUNT(*) FROM products WHERE active=1").fetchone()[0]
-        return {"ok":True,"version":"4.5.1","products":count,"database":"ok"}
+        return {"ok":True,"version":"4.5.2","products":count,"database":"ok"}
     except Exception as e:
         raise HTTPException(status_code=503, detail=str(e))
 
 @app.get("/api/version")
 def version_info():
-    return {"version":"4.5.1","product":"Liftorg B2B Engineering Platform","spec":"MASTER_SPEC.md","mode":"react-model-groups+wjc-t-volume-mrl+execution-selector-runtime-fix+buyer-visibility+persistent-media+media-library+inheritance+admin-upload+placement-rules+tdna-clean-survey+selection-summary+tdna-si+ru-sheave-terminology+zoom-sketches+optional-survey+direct-order+autosave+explainable-search"}
+    return {"version":"4.5.2","product":"Liftorg B2B Engineering Platform","spec":"MASTER_SPEC.md","mode":"react-model-groups+wjc-t-volume-mrl+execution-selector-runtime-fix+buyer-visibility+persistent-media+media-library+inheritance+admin-upload+placement-rules+tdna-clean-survey+selection-summary+tdna-si+ru-sheave-terminology+zoom-sketches+optional-survey+direct-order+autosave+explainable-search"}
